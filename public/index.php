@@ -488,12 +488,12 @@ class IA {
                     [
                         'name' => 'Superintendencia de Protección de Datos Personales (SPDP)',
                         'description' => 'Organismo oficial de control y regulación de datos personales en Ecuador',
-                        'url' => 'https://www.datospersonales.gob.ec/'
+                        'url' => 'https://spdp.gob.ec/'
                     ],
                     [
                         'name' => 'Ley Orgánica de Protección de Datos Personales',
                         'description' => 'Texto completo de la LOPDP - Registro Oficial',
-                        'url' => 'https://www.registroficial.gob.ec/'
+                        'url' => 'https://spdp.gob.ec/'
                     ],
                     [
                         'name' => 'Ministerio del Trabajo - Ecuador',
