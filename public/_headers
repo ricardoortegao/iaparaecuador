@@ -1,5 +1,5 @@
-# Headers para Cloudflare - Permitir iframes del mismo origen
-# auditoriadesoftware.com
+# Headers para Cloudflare Pages
+# iaparaecuador.com
 
 /*
   # Permitir iframes del mismo origen (IMPORTANTE para el menú)
