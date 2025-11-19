@@ -6,7 +6,7 @@
     
     <!-- Página principal -->
     <url>
-        <loc>https://iasoloparami.libresoft.ec/</loc>
+        <loc>https://iaparaecuador.libresoft.ec/</loc>
         <lastmod>2025-01-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -14,7 +14,7 @@
     
     <!-- Sección Características -->
     <url>
-        <loc>https://iasoloparami.libresoft.ec/#features</loc>
+        <loc>https://iaparaecuador.libresoft.ec/#features</loc>
         <lastmod>2025-01-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -22,7 +22,7 @@
     
     <!-- Sección Beneficios -->
     <url>
-        <loc>https://iasoloparami.libresoft.ec/#benefits</loc>
+        <loc>https://iaparaecuador.libresoft.ec/#benefits</loc>
         <lastmod>2025-01-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -30,7 +30,7 @@
     
     <!-- Sección Contacto -->
     <url>
-        <loc>https://iasoloparami.libresoft.ec/#contact</loc>
+        <loc>https://iaparaecuador.libresoft.ec/#contact</loc>
         <lastmod>2025-01-09</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>

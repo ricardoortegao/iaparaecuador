@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://iasoloparami.libresoft.ec/sitemap.xml
+Sitemap: https://iaparaecuador.libresoft.ec/sitemap.xml
 
 # Crawl-delay para bots más agresivos
 User-agent: Googlebot
