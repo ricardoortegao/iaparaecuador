@@ -943,6 +943,71 @@ body {
 }
 
 /* ===================================
+   FLOATING BUTTONS
+   =================================== */
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1500;
+    transition: all 0.3s ease;
+    animation: pulse 2s infinite;
+    text-decoration: none;
+}
+
+.floating-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
+    animation: none;
+}
+
+.floating-btn svg {
+    width: 32px;
+    height: 32px;
+}
+
+.floating-btn-whatsapp {
+    left: 20px;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+}
+
+.floating-btn-whatsapp:hover {
+    background: linear-gradient(135deg, #128C7E, #075E54);
+}
+
+.floating-btn-telegram {
+    right: 20px;
+    background: linear-gradient(135deg, #0088cc, #005f8c);
+    color: white;
+}
+
+.floating-btn-telegram:hover {
+    background: linear-gradient(135deg, #005f8c, #004466);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+        transform: scale(1.05);
+        box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* ===================================
    FOOTER
    =================================== */
 .footer {
@@ -1007,6 +1072,24 @@ body {
     .modal-actions {
         flex-wrap: nowrap;
     }
+
+    .floating-btn {
+        width: 65px;
+        height: 65px;
+    }
+
+    .floating-btn svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .floating-btn-whatsapp {
+        left: 30px;
+    }
+
+    .floating-btn-telegram {
+        right: 30px;
+    }
 }
 
 /* ===================================
@@ -1051,5 +1134,24 @@ body {
 
     .modal-description {
         font-size: 1.25rem;
+    }
+
+    .floating-btn {
+        width: 70px;
+        height: 70px;
+        bottom: 30px;
+    }
+
+    .floating-btn svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .floating-btn-whatsapp {
+        left: 40px;
+    }
+
+    .floating-btn-telegram {
+        right: 40px;
     }
 }
