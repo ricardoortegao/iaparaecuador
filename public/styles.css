@@ -972,24 +972,24 @@ body {
     height: 32px;
 }
 
-.floating-btn-whatsapp {
-    left: 20px;
-    background: linear-gradient(135deg, #25D366, #128C7E);
-    color: white;
-}
-
-.floating-btn-whatsapp:hover {
-    background: linear-gradient(135deg, #128C7E, #075E54);
-}
-
 .floating-btn-telegram {
-    right: 20px;
+    left: 20px;
     background: linear-gradient(135deg, #0088cc, #005f8c);
     color: white;
 }
 
 .floating-btn-telegram:hover {
     background: linear-gradient(135deg, #005f8c, #004466);
+}
+
+.floating-btn-whatsapp {
+    right: 20px;
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    color: white;
+}
+
+.floating-btn-whatsapp:hover {
+    background: linear-gradient(135deg, #128C7E, #075E54);
 }
 
 @keyframes pulse {
@@ -1083,11 +1083,11 @@ body {
         height: 36px;
     }
 
-    .floating-btn-whatsapp {
+    .floating-btn-telegram {
         left: 30px;
     }
 
-    .floating-btn-telegram {
+    .floating-btn-whatsapp {
         right: 30px;
     }
 }
@@ -1147,11 +1147,11 @@ body {
         height: 40px;
     }
 
-    .floating-btn-whatsapp {
+    .floating-btn-telegram {
         left: 40px;
     }
 
-    .floating-btn-telegram {
+    .floating-btn-whatsapp {
         right: 40px;
     }
 }

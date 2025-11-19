@@ -75,12 +75,12 @@ class IA {
                 'section_link' => '#datos-personales',
                 'modal_content' => [
                     'title' => 'Cumplimiento LOPDP - Protección de Datos Personales',
-                    'description' => 'Cumplimiento real de la Ley Orgánica de Protección de Datos Personales de Ecuador',
+                    'description' => 'Cumplimiento real y tecnológico de la Ley Orgánica de Protección de Datos Personales de Ecuador. Mucho más que hacer firmar un papelito!!!',
                     'points' => [
                         'Aplicamos privacidad y confidencialidad ante todo. Sus datos NUNCA deben subirse a internet',
                         'Brindamos servicio para Identificar datos personales simples y sensibles en bases de datos de todo tamaño y modelo',
                         'Test para verificar el cumplimiento de los estándares tecnológicos y de base de datos para cumplir con la LOPDP',
-                        'Recomendaciones para sinonimizar, anonimizar y encriptar datos sensibles',
+                        'Recomendaciones para clasificar, sinonimizar, anonimizar y encriptar datos personales simples, sensibles y otros',
                         'Cumplimiento con regulaciones y notificaciones de la SPDP (Superintendencia de Protección de Datos Personales)',
                         'Políticas de privacidad y consentimiento informado efectivos',
                         'Registro de tratamiento de datos personales',
@@ -596,11 +596,11 @@ class IA {
         'whatsapp' => [
             'phone' => '593999999999',
             'message' => 'Hola, me interesa conocer más sobre las soluciones de IA para Ecuador',
-            'position' => 'left'
+            'position' => 'right'
         ],
         'telegram' => [
             'username' => 'iaparaecuador',
-            'position' => 'right'
+            'position' => 'left'
         ]
     ];
 
@@ -986,19 +986,19 @@ class IA {
     public static function renderFloatingButtons() {
         $buttons = self::$floatingButtons;
         
-        // WhatsApp Button
-        $whatsappUrl = 'https://wa.me/'.$buttons['whatsapp']['phone'].'?text='.urlencode($buttons['whatsapp']['message']);
-        print '    <a href="'.$whatsappUrl.'" target="_blank" rel="noopener noreferrer" class="floating-btn floating-btn-whatsapp" aria-label="Contactar por WhatsApp">'.L;
-        print '        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">'.L;
-        print '            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.923 0-7.435 6.050-13.485 13.485-13.485s13.485 6.050 13.485 13.485c0 7.435-6.050 13.485-13.485 13.485zM21.960 18.828c-0.305-0.153-1.802-0.890-2.082-0.992s-0.483-0.153-0.686 0.153c-0.203 0.305-0.788 0.992-0.966 1.195s-0.356 0.230-0.661 0.077c-0.305-0.153-1.288-0.475-2.453-1.513-0.907-0.808-1.520-1.807-1.698-2.112s-0.018-0.470 0.134-0.622c0.138-0.137 0.305-0.356 0.458-0.534s0.203-0.305 0.305-0.509c0.102-0.203 0.051-0.381-0.025-0.534s-0.686-1.653-0.940-2.263c-0.248-0.594-0.499-0.513-0.686-0.522-0.178-0.008-0.381-0.010-0.584-0.010s-0.534 0.076-0.813 0.381c-0.280 0.305-1.067 1.043-1.067 2.543s1.093 2.951 1.245 3.154c0.153 0.203 2.109 3.230 5.109 4.528 0.714 0.309 1.271 0.494 1.704 0.632 0.717 0.228 1.369 0.195 1.884 0.118 0.575-0.086 1.802-0.736 2.056-1.447s0.254-1.320 0.178-1.447c-0.076-0.127-0.280-0.203-0.584-0.356z"/>'.L;
-        print '        </svg>'.L;
-        print '    </a>'.L;
-        
-        // Telegram Button
+        // Telegram Button (izquierda)
         $telegramUrl = 'https://t.me/'.$buttons['telegram']['username'];
         print '    <a href="'.$telegramUrl.'" target="_blank" rel="noopener noreferrer" class="floating-btn floating-btn-telegram" aria-label="Contactar por Telegram">'.L;
         print '        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">'.L;
         print '            <path d="M16 0c-8.838 0-16 7.162-16 16s7.162 16 16 16 16-7.163 16-16-7.163-16-16-16zM23.863 10.969l-2.625 12.369c-0.194 0.875-0.712 1.087-1.444 0.681l-4-2.95-1.919 1.85c-0.213 0.213-0.394 0.394-0.8 0.394l0.288-4.075 7.381-6.669c0.319-0.287-0.069-0.444-0.5-0.156l-9.119 5.744-3.931-1.231c-0.856-0.262-0.869-0.85 0.175-1.262l15.369-5.925c0.713-0.256 1.331 0.169 1.094 1.231z"/>'.L;
+        print '        </svg>'.L;
+        print '    </a>'.L;
+        
+        // WhatsApp Button (derecha)
+        $whatsappUrl = 'https://wa.me/'.$buttons['whatsapp']['phone'].'?text='.urlencode($buttons['whatsapp']['message']);
+        print '    <a href="'.$whatsappUrl.'" target="_blank" rel="noopener noreferrer" class="floating-btn floating-btn-whatsapp" aria-label="Contactar por WhatsApp">'.L;
+        print '        <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">'.L;
+        print '            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.923 0-7.435 6.050-13.485 13.485-13.485s13.485 6.050 13.485 13.485c0 7.435-6.050 13.485-13.485 13.485zM21.960 18.828c-0.305-0.153-1.802-0.890-2.082-0.992s-0.483-0.153-0.686 0.153c-0.203 0.305-0.788 0.992-0.966 1.195s-0.356 0.230-0.661 0.077c-0.305-0.153-1.288-0.475-2.453-1.513-0.907-0.808-1.520-1.807-1.698-2.112s-0.018-0.470 0.134-0.622c0.138-0.137 0.305-0.356 0.458-0.534s0.203-0.305 0.305-0.509c0.102-0.203 0.051-0.381-0.025-0.534s-0.686-1.653-0.940-2.263c-0.248-0.594-0.499-0.513-0.686-0.522-0.178-0.008-0.381-0.010-0.584-0.010s-0.534 0.076-0.813 0.381c-0.280 0.305-1.067 1.043-1.067 2.543s1.093 2.951 1.245 3.154c0.153 0.203 2.109 3.230 5.109 4.528 0.714 0.309 1.271 0.494 1.704 0.632 0.717 0.228 1.369 0.195 1.884 0.118 0.575-0.086 1.802-0.736 2.056-1.447s0.254-1.320 0.178-1.447c-0.076-0.127-0.280-0.203-0.584-0.356z"/>'.L;
         print '        </svg>'.L;
         print '    </a>'.L;
     }
