@@ -124,6 +124,58 @@ document.querySelectorAll('.section, .feature-card, .solution-card, .service-car
 });
 
 // ===================================
+// MODALS
+// ===================================
+const featureCards = document.querySelectorAll('.feature-card[data-modal]');
+const modals = document.querySelectorAll('.modal');
+const modalCloseButtons = document.querySelectorAll('.modal-close, .modal-close-btn');
+
+// Open modal when clicking feature card
+featureCards.forEach(card => {
+    card.addEventListener('click', () => {
+        const modalId = card.getAttribute('data-modal');
+        const modal = document.getElementById(modalId);
+        if (modal) {
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Prevent background scroll
+        }
+    });
+});
+
+// Close modal when clicking close button
+modalCloseButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const modal = button.closest('.modal');
+        if (modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scroll
+        }
+    });
+});
+
+// Close modal when clicking outside
+modals.forEach(modal => {
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scroll
+        }
+    });
+});
+
+// Close modal with ESC key
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        const activeModal = document.querySelector('.modal.active');
+        if (activeModal) {
+            activeModal.classList.remove('active');
+            document.body.style.overflow = ''; // Restore scroll
+        }
+    }
+});
+
+// ===================================
 // INITIALIZE
 // ===================================
 document.addEventListener('DOMContentLoaded', () => {
