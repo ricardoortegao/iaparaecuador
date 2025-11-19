@@ -733,6 +733,59 @@ body {
 }
 
 /* ===================================
+   REFERENCES
+   =================================== */
+.reference-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.reference-item {
+    background: rgba(30, 41, 59, 0.5);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(6, 182, 212, 0.2);
+    transition: all 0.3s;
+}
+
+.reference-item:hover {
+    border-color: var(--color-secondary);
+    transform: translateX(5px);
+}
+
+.reference-name {
+    margin-bottom: var(--spacing-xs);
+}
+
+.reference-name a {
+    color: var(--color-secondary);
+    text-decoration: none;
+    font-size: 1.125rem;
+    transition: color 0.3s;
+}
+
+.reference-name a:hover {
+    color: var(--color-primary);
+}
+
+.reference-description {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.reference-url {
+    margin: 0;
+}
+
+.reference-url small {
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+/* ===================================
    FOOTER
    =================================== */
 .footer {
