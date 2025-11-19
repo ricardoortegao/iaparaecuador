@@ -4,16 +4,19 @@ Sitio web oficial de IA para Ecuador, hospedado en Cloudflare Pages.
 
 ## 🚀 Estado Actual
 
-Sitio en construcción con placeholder minimalista.
+Sitio completo con diseño responsive, mobile-first, vanilla HTML5/CSS/JavaScript.
 
 ## 📁 Estructura
 
 ```
 iaparaecuador/
 ├── public/              # Archivos estáticos (root de Cloudflare)
-│   ├── index.html      # Página principal (placeholder)
+│   ├── index.html      # Página principal (vanilla HTML5)
+│   ├── styles.css      # Estilos (mobile-first, responsive)
+│   ├── script.js       # JavaScript (interactividad)
 │   ├── favicon.svg     # Favicon
 │   ├── robots.txt      # SEO
+│   ├── sitemap.xml     # Mapa del sitio
 │   └── _headers        # Headers de Cloudflare
 ├── src/                # Código fuente (Workers AI)
 │   ├── index.ts        # Worker principal
