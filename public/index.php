@@ -70,7 +70,7 @@ class IA {
                 ]
             ],
             [
-                'icon' => '🛡️',
+                'icon' => 'svg-checklist-audit',
                 'title' => 'Pasar con éxito auditorías sobre tratamiento de datos personales',
                 'text' => 'Cumplir con la LOPDP; que no es llenar un "papelito de consentimiento" especialmente para grandes contribuyentes con millones de usuarios',
                 'modal_id' => 'modal-datos-personales',
@@ -724,6 +724,35 @@ class IA {
                 print '  <rect x="48" y="18" width="12" height="3" rx="1" fill="url(#keyGradient)" stroke="#daa520" stroke-width="1"/>'.L;
                 print '  <rect x="56" y="16" width="2" height="2" fill="url(#keyGradient)"/>'.L;
                 print '  <rect x="56" y="19" width="2" height="2" fill="url(#keyGradient)"/>'.L;
+                print '</svg>'.L;
+            } elseif ($feature['icon'] === 'svg-checklist-audit') {
+                print '<svg viewBox="0 0 64 64" width="48" height="48" xmlns="http://www.w3.org/2000/svg">'.L;
+                print '  <defs>'.L;
+                print '    <linearGradient id="paperGradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '    <linearGradient id="magnifierGradient" x1="0%" y1="0%" x2="100%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#4fc3f7;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#29b6f6;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '  </defs>'.L;
+                print '  <!-- Papel/Documento -->'.L;
+                print '  <rect x="12" y="8" width="32" height="44" rx="2" fill="url(#paperGradient)" stroke="#d0d0d0" stroke-width="2"/>'.L;
+                print '  <!-- Líneas del checklist -->'.L;
+                print '  <line x1="20" y1="18" x2="36" y2="18" stroke="#e0e0e0" stroke-width="1.5"/>'.L;
+                print '  <line x1="20" y1="26" x2="36" y2="26" stroke="#e0e0e0" stroke-width="1.5"/>'.L;
+                print '  <line x1="20" y1="34" x2="36" y2="34" stroke="#e0e0e0" stroke-width="1.5"/>'.L;
+                print '  <line x1="20" y1="42" x2="36" y2="42" stroke="#e0e0e0" stroke-width="1.5"/>'.L;
+                print '  <!-- Checkmarks verdes -->'.L;
+                print '  <path d="M 16 16 L 18 18 L 21 14" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 16 24 L 18 26 L 21 22" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 16 32 L 18 34 L 21 30" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 16 40 L 18 42 L 21 38" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <!-- Lupa -->'.L;
+                print '  <circle cx="44" cy="44" r="10" fill="url(#magnifierGradient)" stroke="#0288d1" stroke-width="2" opacity="0.95"/>'.L;
+                print '  <circle cx="44" cy="44" r="7" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <line x1="51" y1="51" x2="58" y2="58" stroke="#0288d1" stroke-width="3.5" stroke-linecap="round"/>'.L;
                 print '</svg>'.L;
             } else {
                 print $feature['icon'];
