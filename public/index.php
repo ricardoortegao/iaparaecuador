@@ -95,7 +95,7 @@ class IA {
                 ]
             ],
             [
-                'icon' => '👥',
+                'icon' => 'svg-checklist-inspector',
                 'title' => 'Pasar con éxito inspecciones del Ministerio del Trabajo',
                 'text' => 'Empresas y entidades',
                 'modal_id' => 'modal-salud-ocupacional',
@@ -119,7 +119,7 @@ class IA {
                 ]
             ],
             [
-                'icon' => '📄',
+                'icon' => 'svg-docs-ai-brain',
                 'title' => 'Gestión Documental con IA',
                 'text' => 'Control total de documentos en la era de la IA',
                 'modal_id' => 'modal-gestion-documental',
@@ -753,6 +753,95 @@ class IA {
                 print '  <circle cx="44" cy="44" r="10" fill="url(#magnifierGradient)" stroke="#0288d1" stroke-width="2" opacity="0.95"/>'.L;
                 print '  <circle cx="44" cy="44" r="7" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
                 print '  <line x1="51" y1="51" x2="58" y2="58" stroke="#0288d1" stroke-width="3.5" stroke-linecap="round"/>'.L;
+                print '</svg>'.L;
+            } elseif ($feature['icon'] === 'svg-checklist-inspector') {
+                print '<svg viewBox="0 0 64 64" width="48" height="48" xmlns="http://www.w3.org/2000/svg">'.L;
+                print '  <defs>'.L;
+                print '    <linearGradient id="paperGradient2" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '    <linearGradient id="inspectorGradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '  </defs>'.L;
+                print '  <!-- Papel/Documento -->'.L;
+                print '  <rect x="12" y="8" width="32" height="44" rx="2" fill="url(#paperGradient2)" stroke="#d0d0d0" stroke-width="2"/>'.L;
+                print '  <!-- Líneas del checklist -->'.L;
+                print '  <line x1="20" y1="18" x2="36" y2="18" stroke="#e0e0e0" stroke-width="1.5"/>'.L;
+                print '  <line x1="20" y1="26" x2="36" y2="26" stroke="#e0e0e0" stroke-width="1.5"/>'.L;
+                print '  <line x1="20" y1="34" x2="36" y2="34" stroke="#e0e0e0" stroke-width="1.5"/>'.L;
+                print '  <line x1="20" y1="42" x2="36" y2="42" stroke="#e0e0e0" stroke-width="1.5"/>'.L;
+                print '  <!-- Checkmarks verdes -->'.L;
+                print '  <path d="M 16 16 L 18 18 L 21 14" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 16 24 L 18 26 L 21 22" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 16 32 L 18 34 L 21 30" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 16 40 L 18 42 L 21 38" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <!-- Inspector (cabeza de persona) -->'.L;
+                print '  <circle cx="46" cy="42" r="9" fill="url(#inspectorGradient)" stroke="#d97706" stroke-width="2"/>'.L;
+                print '  <!-- Cara -->'.L;
+                print '  <circle cx="43" cy="40" r="1.5" fill="#ffffff"/>'.L;
+                print '  <circle cx="49" cy="40" r="1.5" fill="#ffffff"/>'.L;
+                print '  <path d="M 42 46 Q 46 48 50 46" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>'.L;
+                print '  <!-- Casco/Sombrero inspector -->'.L;
+                print '  <ellipse cx="46" cy="35" rx="10" ry="4" fill="#d97706" opacity="0.8"/>'.L;
+                print '  <rect x="41" y="32" width="10" height="3" rx="1" fill="#d97706"/>'.L;
+                print '  <!-- Hombros/Cuello -->'.L;
+                print '  <path d="M 38 51 L 38 54 L 54 54 L 54 51" fill="url(#inspectorGradient)" stroke="#d97706" stroke-width="1.5"/>'.L;
+                print '</svg>'.L;
+            } elseif ($feature['icon'] === 'svg-docs-ai-brain') {
+                print '<svg viewBox="0 0 64 64" width="48" height="48" xmlns="http://www.w3.org/2000/svg">'.L;
+                print '  <defs>'.L;
+                print '    <linearGradient id="doc1Gradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '    <linearGradient id="doc2Gradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#34d399;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '    <linearGradient id="doc3Gradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#f472b6;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '  </defs>'.L;
+                print '  <!-- Documento 1 (azul) -->'.L;
+                print '  <rect x="8" y="20" width="16" height="22" rx="1.5" fill="url(#doc1Gradient)" stroke="#2563eb" stroke-width="1.5"/>'.L;
+                print '  <line x1="11" y1="25" x2="21" y2="25" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <line x1="11" y1="29" x2="21" y2="29" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <line x1="11" y1="33" x2="18" y2="33" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <!-- Documento 2 (verde) -->'.L;
+                print '  <rect x="18" y="16" width="16" height="22" rx="1.5" fill="url(#doc2Gradient)" stroke="#059669" stroke-width="1.5"/>'.L;
+                print '  <line x1="21" y1="21" x2="31" y2="21" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <line x1="21" y1="25" x2="31" y2="25" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <line x1="21" y1="29" x2="28" y2="29" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <!-- Documento 3 (morado) -->'.L;
+                print '  <rect x="28" y="22" width="16" height="22" rx="1.5" fill="url(#doc3Gradient)" stroke="#7c3aed" stroke-width="1.5"/>'.L;
+                print '  <line x1="31" y1="27" x2="41" y2="27" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <line x1="31" y1="31" x2="41" y2="31" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <line x1="31" y1="35" x2="38" y2="35" stroke="#ffffff" stroke-width="1" opacity="0.7"/>'.L;
+                print '  <!-- Cerebro IA (rosa/magenta) -->'.L;
+                print '  <ellipse cx="48" cy="38" rx="11" ry="13" fill="url(#brainGradient)" stroke="#db2777" stroke-width="2"/>'.L;
+                print '  <!-- Detalles del cerebro -->'.L;
+                print '  <path d="M 42 32 Q 44 34 42 36" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <path d="M 46 30 Q 48 32 46 34" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <path d="M 50 30 Q 52 32 50 34" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <path d="M 54 32 Q 52 34 54 36" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <path d="M 42 38 Q 44 40 42 42" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <path d="M 46 40 Q 48 42 46 44" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <path d="M 50 40 Q 52 42 50 44" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <path d="M 54 38 Q 52 40 54 42" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>'.L;
+                print '  <!-- Conexiones neuronales -->'.L;
+                print '  <circle cx="44" cy="36" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
+                print '  <circle cx="48" cy="38" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
+                print '  <circle cx="52" cy="36" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
+                print '  <circle cx="46" cy="42" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
+                print '  <circle cx="50" cy="42" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
                 print '</svg>'.L;
             } else {
                 print $feature['icon'];
