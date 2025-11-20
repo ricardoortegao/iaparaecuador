@@ -51,7 +51,9 @@ class IA {
                 'title' => 'IA Local, privada, confidencial sin internet',
                 'text' => 'Privacidad garantizada',
                 'modal_id' => 'modal-ia-local',
-                'section_link' => '#ia-local',
+                'section_link' => 'https://iasoloparami.com',
+                'section_link_external' => true,
+                'section_link_text' => 'Ver detalle y cotizador',
                 'modal_content' => [
                     'title' => 'IA Local, Privada y Confidencial',
                     'description' => 'Modelos de inteligencia artificial ejecutándose en tu propia infraestructura sin necesidad de internet',
@@ -167,7 +169,9 @@ class IA {
                 'title' => 'Capacitación en IA',
                 'text' => 'Capacitación y Workshops especializados en IA',
                 'modal_id' => 'modal-capacitacion',
-                'section_link' => '#capacitacion',
+                'section_link' => 'https://expertosenia.net',
+                'section_link_external' => true,
+                'section_link_text' => 'Abrir ExpertosEnIa.net',
                 'modal_content' => [
                     'title' => 'Capacitación y Desarrollo de Competencias en IA',
                     'description' => 'Programas de formación especializados para tu equipo',
@@ -201,6 +205,30 @@ class IA {
                         'Asesoría estratégica para nuevos casos de uso',
                         'Escalamiento rápido de recursos',
                         'Garantía de funcionamiento'
+                    ]
+                ]
+            ],
+            [
+                'icon' => '🎯',
+                'title' => 'Auto test suficiencia en IA',
+                'text' => 'Evalúa tus conocimientos y competencias',
+                'modal_id' => 'modal-test-ia',
+                'section_link' => 'https://expertosenia.net/test',
+                'section_link_external' => true,
+                'section_link_text' => 'Realizar Tests',
+                'modal_content' => [
+                    'title' => 'Tests de Suficiencia en Inteligencia Artificial',
+                    'description' => 'Evalúa tu nivel de conocimiento en diferentes áreas de IA con nuestros tests especializados',
+                    'points' => [
+                        'Test de Fundamentos de IA: conceptos básicos y terminología',
+                        'Test de Machine Learning: algoritmos y técnicas',
+                        'Test de Deep Learning: redes neuronales y arquitecturas',
+                        'Test de IA Generativa: LLMs, prompts y aplicaciones',
+                        'Test de Ética en IA: privacidad, sesgos y responsabilidad',
+                        'Test de IA Local: implementación y despliegue privado',
+                        'Resultados inmediatos con retroalimentación',
+                        'Certificado digital de competencias',
+                        'Recomendaciones personalizadas de capacitación'
                     ]
                 ]
             ]
@@ -700,7 +728,9 @@ class IA {
             }
             print '                </ul>'.L;
             print '                <div class="modal-actions">'.L;
-            print '                    <a href="'.$feature['section_link'].'" class="btn btn-primary modal-btn">Ver Sección Completa</a>'.L;
+            $linkText = isset($feature['section_link_text']) ? $feature['section_link_text'] : 'Ver Sección Completa';
+            $linkTarget = isset($feature['section_link_external']) && $feature['section_link_external'] ? ' target="_blank" rel="noopener noreferrer"' : '';
+            print '                    <a href="'.$feature['section_link'].'"'.$linkTarget.' class="btn btn-primary modal-btn">'.$linkText.'</a>'.L;
             print '                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>'.L;
             print '                </div>'.L;
             print '            </div>'.L;
