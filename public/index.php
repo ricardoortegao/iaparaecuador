@@ -40,7 +40,7 @@ class IA {
     // ===================================
     public static $hero = [
         'title' => 'Inteligencia Artificial para Ecuador',
-        'subtitle' => 'Usos y aplicaciones de la IA para instituciones, empresas, académia, estudiantes, emprendedores, profesionales y especialistas',
+        'subtitle' => 'Usos y aplicaciones reales de la IA para instituciones, empresas, académia, estudiantes, emprendedores, profesionales y especialistas. La IA multiplicando la productividad de las personas y organizaciones.',
         'buttons' => [
             ['href' => '#ia-local', 'text' => 'Explorar Soluciones', 'class' => 'btn-primary'],
             ['href' => '#contacto', 'text' => 'Contactar Ahora', 'class' => 'btn-secondary']
