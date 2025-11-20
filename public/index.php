@@ -47,7 +47,7 @@ class IA {
         ],
         'features' => [
             [
-                'icon' => '⚡',
+                'icon' => 'svg-lock-key',
                 'title' => 'IA Local, privada, confidencial sin internet',
                 'text' => 'Privacidad garantizada',
                 'modal_id' => 'modal-ia-local',
@@ -700,7 +700,35 @@ class IA {
         print '                <div class="feature-grid">'.L;
         foreach ($hero['features'] as $feature) {
             print '                    <div class="feature-card" data-modal="'.$feature['modal_id'].'">'.L;
-            print '                        <div class="feature-icon">'.$feature['icon'].'</div>'.L;
+            print '                        <div class="feature-icon">'.L;
+            if ($feature['icon'] === 'svg-lock-key') {
+                print '<svg viewBox="0 0 64 64" width="48" height="48" xmlns="http://www.w3.org/2000/svg">'.L;
+                print '  <defs>'.L;
+                print '    <linearGradient id="lockGradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#ff8c00;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#ff6600;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '    <linearGradient id="keyGradient" x1="0%" y1="0%" x2="100%" y2="0%">'.L;
+                print '      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#ffed4e;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '  </defs>'.L;
+                print '  <!-- Candado -->'.L;
+                print '  <rect x="18" y="28" width="28" height="24" rx="3" fill="url(#lockGradient)" stroke="#cc5500" stroke-width="2"/>'.L;
+                print '  <path d="M 22 28 L 22 20 Q 22 12 32 12 Q 42 12 42 20 L 42 28" fill="none" stroke="url(#lockGradient)" stroke-width="3" stroke-linecap="round"/>'.L;
+                print '  <circle cx="32" cy="38" r="3" fill="#fff" opacity="0.9"/>'.L;
+                print '  <rect x="30.5" y="38" width="3" height="8" rx="1.5" fill="#fff" opacity="0.9"/>'.L;
+                print '  <!-- Llave -->'.L;
+                print '  <circle cx="50" cy="18" r="5" fill="url(#keyGradient)" stroke="#daa520" stroke-width="1.5"/>'.L;
+                print '  <circle cx="50" cy="18" r="2" fill="none" stroke="#daa520" stroke-width="1"/>'.L;
+                print '  <rect x="48" y="18" width="12" height="3" rx="1" fill="url(#keyGradient)" stroke="#daa520" stroke-width="1"/>'.L;
+                print '  <rect x="56" y="16" width="2" height="2" fill="url(#keyGradient)"/>'.L;
+                print '  <rect x="56" y="19" width="2" height="2" fill="url(#keyGradient)"/>'.L;
+                print '</svg>'.L;
+            } else {
+                print $feature['icon'];
+            }
+            print '</div>'.L;
             print '                        <h3>'.$feature['title'].'</h3>'.L;
             print '                        <p>'.$feature['text'].'</p>'.L;
             print '                    </div>'.L;

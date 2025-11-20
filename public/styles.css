@@ -266,6 +266,19 @@ body {
 .feature-icon {
     font-size: 2.5rem;
     margin-bottom: var(--spacing-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+}
+
+.feature-icon svg {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover .feature-icon svg {
+    transform: scale(1.1) rotate(5deg);
 }
 
 .feature-card h3 {
