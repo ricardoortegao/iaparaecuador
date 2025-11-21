@@ -23,14 +23,14 @@ class IA {
         'logo_text' => 'IA Para Ecuador',
         'menu' => [
             ['href' => '#inicio', 'text' => 'Inicio'],
-            ['href' => '#ia-local', 'text' => 'IA Local'],
-            ['href' => '#datos-personales', 'text' => 'Pasar exitosamente auditorías de datos personales'],
-            ['href' => '#salud-ocupacional', 'text' => 'Pasar exitosamente Inspecciones Ministerio del trabajo'],
-            ['href' => '#documentacion', 'text' => 'Gestión Documental'],
-            ['href' => '#soluciones', 'text' => 'Soluciones a la medida'],
-            ['href' => '#capacitacion', 'text' => 'Workshops y Capacitación'],
+            ['href' => '#ia-local', 'text' => 'IA&nbsp;privada solo para mí'],
+            ['href' => '#datos-personales', 'text' => 'Pasar auditorías SPDP'],
+            ['href' => '#salud-ocupacional', 'text' => 'Pasar inspecciones MDT'],
+            ['href' => '#documentacion', 'text' => 'Gestión Documental Moderna'],
+            ['href' => '#soluciones', 'text' => 'Soluciones IA a la medida'],
+            ['href' => '#capacitacion', 'text' => 'Workshops IA'],
             ['href' => '#faq', 'text' => 'Preguntas frecuentes'],
-            ['href' => '#referencias', 'text' => 'Referencias'],
+            ['href' => '#referencias', 'text' => 'Referencias autorizadas'],
             ['href' => '#contacto', 'text' => 'Contacto']
         ]
     ];
@@ -55,40 +55,41 @@ class IA {
                 'section_link_external' => true,
                 'section_link_text' => 'Ver detalle y cotizador',
                 'modal_content' => [
-                    'title' => 'IA Local, Privada y Confidencial',
-                    'description' => 'Modelos de inteligencia artificial ejecutándose en tu propia infraestructura sin necesidad de internet',
+                    'title' => 'IA Local, privada, confidencial sin internet',
+                    'description' => 'Modelos de inteligencia artificial ejecutándose en tu propia infraestructura (laptop, PC, servidor), tus datos, sin necesidad de conexión a internet',
                     'points' => [
                         'Datos que nunca salen de tu organización',
                         'Cero transferencia a servidores externos o nubes públicas',
                         'Control total sobre información confidencial',
-                        'Cumplimiento automático con regulaciones de privacidad',
+                        'Inteligencia artificial exclusiva a la medida para tus datos y tus necesidades',
                         'Procesamiento de documentos sensibles sin riesgos',
-                        'Análisis de datos de pacientes, clientes, empleados',
-                        'Integración con sistemas existentes',
+                        'Análisis de datos de clientes, pacientes, productos, empleados, contabilidad',
+                        'Opcional Integración con sistemas existentes',
                         'Funciona sin conexión a internet'
                     ]
                 ]
             ],
             [
                 'icon' => 'svg-checklist-audit',
-                'title' => 'Pasar con éxito auditorías sobre tratamiento de datos personales',
+                'title' => 'Pasar con éxito auditorías sobre tratamiento de datos personales SPDP',
                 'text' => 'Cumplir con la LOPDP; que no es llenar un "papelito de consentimiento" especialmente para grandes contribuyentes con millones de usuarios',
                 'modal_id' => 'modal-datos-personales',
                 'section_link' => '#datos-personales',
                 'modal_content' => [
-                    'title' => 'Cumplimiento LOPDP - Protección de Datos Personales',
-                    'description' => 'Cumplimiento real y tecnológico de la Ley Orgánica de Protección de Datos Personales de Ecuador. Mucho más que hacer firmar un papelito!!!',
+                    'title' => 'Pasar con éxito auditorías sobre tratamiento de datos personales SPDP',
+                    'description' => 'Cumplimiento real y tecnológico de la Ley Orgánica de Protección de Datos Personales de Ecuador y controles de la Superintendencia SPDP. Mucho más que hacer firmar un papelito!!!',
                     'points' => [
                         'Aplicamos privacidad y confidencialidad ante todo. Sus datos NUNCA deben subirse a internet',
                         'Brindamos servicio para Identificar datos personales simples y sensibles en bases de datos de todo tamaño y modelo',
-                        'Test para verificar el cumplimiento de los estándares tecnológicos y de base de datos para cumplir con la LOPDP',
+                        'Trabajamos directamente con tus esquemas digitales de datos, sabemos que la documentación no siempre está actualizada',
+                        'Test y pruebas para verificar el cumplimiento de los estándares tecnológicos y de base de datos para cumplir con la LOPDP',
                         'Recomendaciones para clasificar, sinonimizar, anonimizar y encriptar datos personales simples, sensibles y otros',
                         'Cumplimiento con regulaciones y notificaciones de la SPDP (Superintendencia de Protección de Datos Personales)',
                         'Políticas de privacidad y consentimiento informado efectivos',
                         'Registro de tratamiento de datos personales',
                         'Evaluación de impacto en protección de datos (DPIA)',
-                        'Designación de encargado de protección de datos (DPO)',
-                        'Auditorías y reportes de cumplimiento',
+                        'Asistencia en designación de encargado de protección de datos (DPO)',
+                        'Reportes y evidencias de cumplimiento',
                         'Evita multas de USD 1,000 hasta USD 100,000',
                         'Preparación para inspecciones de la SPDP'
                     ]
@@ -101,20 +102,19 @@ class IA {
                 'modal_id' => 'modal-salud-ocupacional',
                 'section_link' => '#salud-ocupacional',
                 'modal_content' => [
-                    'title' => 'Cumplimiento de acuerdos ministeriales para pasar con éxito las inspecciones del Ministerio del Trabajo',
-                    'description' => 'Sistemas a la medida de cada organización para definir obligaciones y cumplimiento de las 96 obligaciones 2025',
+                    'title' => 'Pasar con éxito inspecciones del Ministerio del Trabajo',
+                    'description' => 'Sistemas a la medida de cada organización para definir obligaciones y cumplimiento de las 96 obligaciones 2025, SUT, equidad de género, ...',
                     'points' => [
+                        'Herramientas digitales para orientarte en el cumplimiento normativo con el sustento legal',
                         'Ayudas para el cumplimiento en inspecciones',
                         'Monitoreo de cumplimiento normativo',
-                        'Evaluación automática de regulaciones',
-                        'Generación de reportes para inspecciones',
-                        'Gestión de comités de SST',
-                        'Gestión de comités de Equidad de Género',
+                        'Herramientas para gestión de comités de SST',
+                        'Herramientas para gestión de comités de Equidad de Género',
                         'Registro de capacitaciones y exámenes médicos',
                         'Registro de entrega de documentos a empleados',
                         'Alertas de incidentes y accidentes',
                         'Evita multas de USD 500 hasta USD 50,000',
-                        'Evita cierres'
+                        'Evita cierres o suspensiones de tu negocio'
                     ]
                 ]
             ],
@@ -125,16 +125,17 @@ class IA {
                 'modal_id' => 'modal-gestion-documental',
                 'section_link' => '#documentacion',
                 'modal_content' => [
-                    'title' => 'Sistema de Gestión Documental Inteligente',
-                    'description' => 'Organiza, busca y gestiona documentos con inteligencia artificial',
+                    'title' => 'Sistema de Gestión Documental Inteligente con IA',
+                    'description' => 'Organiza, busca y gestiona documentos con inteligencia artificial. El Ministerio del Trabajo exige desde julio 2025 que cada empleador almacene y gestione sus documentos',
                     'points' => [
+                        'Clasificación automática de documentos según estructura MDT SUT, SRI, IESS, SuperCIAS, SupTel ...',
                         'Búsqueda inteligente en lenguaje natural',
-                        'Clasificación automática de documentos',
                         'Control de versiones y trazabilidad completa',
-                        'Extracción automática de información clave',
+                        'Extracción automática de metadatos y de información clave',
                         'Workflows de aprobación automatizados',
                         'Copias de seguridad y recuperación ante desastres',
-                        'Cumplimiento con normativas de archivo',
+                        'Cumplimiento con normativas modernas para archivo',
+                        'Organización eficiente para grandes volúmenes de datos y archivos complejoso',
                         'Análisis de contenido con IA'
                     ]
                 ]
@@ -147,12 +148,13 @@ class IA {
                 'section_link' => '#soluciones',
                 'modal_content' => [
                     'title' => 'Soluciones de IA Personalizadas',
-                    'description' => 'Desarrollo de soluciones específicas para problemas complejos',
+                    'description' => 'Desarrollo de soluciones específicas para problemas complejos SRI, IESS, MDT, SuperCias, ...',
                     'points' => [
                         'Servicios de descarga de comprobantes de compra y venta desde el SRI',
                         'Generación masiva y automática de retenciones electrónicas en la fuente',
                         'Generación masiva y automática de facturas recurrentes',
                         'Sistema Hable con sus datos para que pueda hacer preguntas y consultas a sus bases de datos, pdfs, hojas electrónicas, imágenes, etc.',
+                        'Emparejamiento codificación SRI, SuperCIAS, SENAE, SERCOP, ...',
                         'Análisis profundo de necesidades específicas',
                         'Arquitectura personalizada conforme regulaciones',
                         'Velocidad de procesamiento optimizada',
@@ -160,7 +162,7 @@ class IA {
                         'Confidencialidad con encriptación end-to-end',
                         'Integridad de datos con validación automática',
                         'Escalabilidad para crecimiento futuro',
-                        'Experiencia en múltiples sectores'
+                        'Casos de éxito en múltiples sectores'
                     ]
                 ]
             ],
@@ -174,12 +176,12 @@ class IA {
                 'section_link_text' => 'Abrir ExpertosEnIa.net',
                 'modal_content' => [
                     'title' => 'Capacitación y Desarrollo de Competencias en IA',
-                    'description' => 'Programas de formación especializados para tu equipo',
+                    'description' => 'Programas de formación especializados para tu personal',
                     'points' => [
                         'Workshops presenciales y virtuales',
-                        'Nivel básico: introducción a IA para decisores',
+                        'Nivel básico: introducción a IA para quienes toman decisiones',
                         'Nivel intermedio: implementación para especialistas TI',
-                        'Nivel avanzado: desarrollo y optimización',
+                        'Nivel avanzado: desarrolladores, ingenieros y arquitectos de sistemas',
                         'Certificados de participación',
                         'Prácticas en laboratorio con casos reales',
                         'Material didáctico y recursos continuos',
@@ -194,8 +196,8 @@ class IA {
                 'modal_id' => 'modal-soporte',
                 'section_link' => '#contacto',
                 'modal_content' => [
-                    'title' => 'Soporte Técnico y Garantía',
-                    'description' => 'Acompañamiento permanente en tu transformación digital',
+                    'title' => 'Soporte Técnico y Garantía en IA',
+                    'description' => 'Acompañamiento permanente en tu transformación digital con especialistas experimentados',
                     'points' => [
                         'Disponibilidad 24/7 para incidencias críticas',
                         'SLA garantizado según nivel de servicio',
@@ -218,17 +220,13 @@ class IA {
                 'section_link_text' => 'Realizar Tests',
                 'modal_content' => [
                     'title' => 'Tests de Suficiencia en Inteligencia Artificial',
-                    'description' => 'Evalúa tu nivel de conocimiento en diferentes áreas de IA con nuestros tests especializados',
+                    'description' => 'Evalúa tu nivel de conocimiento y experiencia en diferentes áreas de IA con nuestros tests especializados',
                     'points' => [
-                        'Test de Fundamentos de IA: conceptos básicos y terminología',
-                        'Test de Machine Learning: algoritmos y técnicas',
-                        'Test de Deep Learning: redes neuronales y arquitecturas',
-                        'Test de IA Generativa: LLMs, prompts y aplicaciones',
-                        'Test de Ética en IA: privacidad, sesgos y responsabilidad',
-                        'Test de IA Local: implementación y despliegue privado',
-                        'Resultados inmediatos con retroalimentación',
-                        'Certificado digital de competencias',
-                        'Recomendaciones personalizadas de capacitación'
+                        'Tests por actividades: generales, académicas, técnicas, médicas',
+                        'Tests especializados para especialistas en IA',
+                        'Tests especializados para estudiantes y profesores',
+                        'Tests especializados para expertos en hojas electrónicas',
+                        'Te podemos ayudar para que mejores tu suficiencia en IA'
                     ]
                 ]
             ]
@@ -244,14 +242,16 @@ class IA {
         'content_title' => 'Datos Propios de tu Organización',
         'content_text' => 'Implementamos soluciones de IA que funcionan completamente dentro de tu infraestructura, garantizando que tus datos sensibles nunca abandonen tu organización.',
         'check_list' => [
-            'Modelos de IA ejecutándose localmente en tu servidor',
-            'Cero transferencia de datos a servidores externos',
+            'Modelos de IA ejecutándose localmente en tu propia infraestructura',
+            'Confidencialidad absoluta: Cero transferencia de datos a cloud, nube, internet ...',
+            'Con tus propios datos, sin alucinaciones',
             'Control total sobre tu información confidencial',
             'Cumplimiento automático con regulaciones de privacidad',
-            'Integración con sistemas existentes'
+            'Agentes y context memory para aprovechar los avances en IA 2025',
+            'Integración opcional con sistemas existentes'
         ],
         'info_box' => [
-            'label' => 'Contenido basado en iasoloparami.com',
+            'label' => 'Detalles en iasoloparami.com',
             'title' => 'Casos de Uso:',
             'items' => [
                 'Análisis de documentos confidenciales internos',
