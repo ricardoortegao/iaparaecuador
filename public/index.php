@@ -229,6 +229,29 @@ class IA {
                         'Te podemos ayudar para que mejores tu suficiencia en IA'
                     ]
                 ]
+            ],
+            [
+                'icon' => 'svg-guarantee-money',
+                'title' => 'Resultados inmediatos y garantizados',
+                'text' => 'Garantía de satisfacción o devolución de dinero',
+                'modal_id' => 'modal-garantia',
+                'section_link' => '#contacto',
+                'modal_content' => [
+                    'title' => 'Garantía de Resultados o Devolución de Dinero',
+                    'description' => 'Estamos tan seguros de la calidad de nuestros servicios que ofrecemos garantía total de satisfacción',
+                    'points' => [
+                        'Resultados inmediatos: Soluciones implementadas y funcionando rápidamente',
+                        'Garantía de resultados: Si no cumplimos lo prometido, no pagas',
+                        'Devolución de dinero: 30 días de garantía en todos los servicios',
+                        'Aplica a: Implementación de IA local, soluciones a medida, gestión documental',
+                        'Aplica a: Cumplimiento LOPDP, sistemas de salud ocupacional',
+                        'Excepciones: Venta de equipos y servicios de capacitación',
+                        'Compromiso escrito: Acuerdos claros de entregables y plazos',
+                        'Soporte incluido: Asistencia técnica durante el período de garantía',
+                        'Sin letra pequeña: Condiciones transparentes y justas',
+                        'Tu satisfacción es nuestra prioridad'
+                    ]
+                ]
             ]
         ]
     ];
@@ -842,6 +865,36 @@ class IA {
                 print '  <circle cx="52" cy="36" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
                 print '  <circle cx="46" cy="42" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
                 print '  <circle cx="50" cy="42" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
+                print '</svg>'.L;
+            } elseif ($feature['icon'] === 'svg-guarantee-money') {
+                print '<svg viewBox="0 0 64 64" width="48" height="48" xmlns="http://www.w3.org/2000/svg">'.L;
+                print '  <defs>'.L;
+                print '    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#34d399;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '    <linearGradient id="dollarGradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '  </defs>'.L;
+                print '  <!-- Escudo de garantía (verde) -->'.L;
+                print '  <path d="M 32 8 L 48 16 L 48 32 Q 48 48 32 56 Q 16 48 16 32 L 16 16 Z" fill="url(#shieldGradient)" stroke="#059669" stroke-width="2.5"/>'.L;
+                print '  <!-- Borde interno del escudo -->'.L;
+                print '  <path d="M 32 12 L 44 18 L 44 32 Q 44 44 32 50 Q 20 44 20 32 L 20 18 Z" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.3"/>'.L;
+                print '  <!-- Símbolo de dólar (amarillo/dorado) -->'.L;
+                print '  <text x="32" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#dollarGradient)" text-anchor="middle" stroke="#d97706" stroke-width="0.5">$</text>'.L;
+                print '  <!-- Número 0 (cero costo si no funciona) -->'.L;
+                print '  <circle cx="24" cy="24" r="6" fill="none" stroke="url(#dollarGradient)" stroke-width="2.5"/>'.L;
+                print '  <text x="24" y="28" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="url(#dollarGradient)" text-anchor="middle">0</text>'.L;
+                print '  <!-- Checkmark de compromiso (blanco) -->'.L;
+                print '  <path d="M 26 42 L 30 46 L 38 36" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <!-- Estrellas de calidad -->'.L;
+                print '  <circle cx="40" cy="20" r="2" fill="#fbbf24" opacity="0.8"/>'.L;
+                print '  <circle cx="46" cy="26" r="1.5" fill="#fbbf24" opacity="0.6"/>'.L;
+                print '  <!-- Sello de garantía (texto 30d) -->'.L;
+                print '  <circle cx="44" cy="42" r="7" fill="#059669" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/>'.L;
+                print '  <text x="44" y="44" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">30d</text>'.L;
                 print '</svg>'.L;
             } else {
                 print $feature['icon'];
