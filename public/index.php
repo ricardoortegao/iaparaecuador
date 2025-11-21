@@ -167,6 +167,27 @@ class IA {
                 ]
             ],
             [
+                'icon' => 'svg-guarantee-money',
+                'title' => 'Resultados inmediatos y garantizados',
+                'text' => 'No vendemos humo. Vendemos IA productiva con resultados. Garantía de satisfacción o devolución de dinero',
+                'modal_id' => 'modal-garantia',
+                'section_link' => '#contacto',
+                'modal_content' => [
+                    'title' => 'Garantía de Resultados o Devolución de Dinero',
+                    'description' => 'Estamos tan seguros de la calidad de nuestros servicios que ofrecemos garantía total de satisfacción',
+                    'points' => [
+                        'Resultados inmediatos: Soluciones implementadas y funcionando rápidamente',
+                        'Garantía de resultados: Si no cumplimos lo prometido, no pagas',
+                        'Aplica a: Servicios, Cumplimiento LOPDP, sistemas de salud ocupacional',
+                        'Excepciones: Venta de equipos y servicios de capacitación',
+                        'Compromiso escrito: Acuerdos claros de entregables y plazos',
+                        'Soporte incluido: Asistencia técnica durante el período de garantía',
+                        'Sin letra pequeña: Condiciones transparentes y justas',
+                        'Tu satisfacción es nuestra prioridad'
+                    ]
+                ]
+            ],
+            [
                 'icon' => '📚',
                 'title' => 'Capacitación en IA',
                 'text' => 'Capacitación y Workshops especializados en IA',
@@ -230,29 +251,6 @@ class IA {
                     ]
                 ]
             ],
-            [
-                'icon' => 'svg-guarantee-money',
-                'title' => 'Resultados inmediatos y garantizados',
-                'text' => 'Garantía de satisfacción o devolución de dinero',
-                'modal_id' => 'modal-garantia',
-                'section_link' => '#contacto',
-                'modal_content' => [
-                    'title' => 'Garantía de Resultados o Devolución de Dinero',
-                    'description' => 'Estamos tan seguros de la calidad de nuestros servicios que ofrecemos garantía total de satisfacción',
-                    'points' => [
-                        'Resultados inmediatos: Soluciones implementadas y funcionando rápidamente',
-                        'Garantía de resultados: Si no cumplimos lo prometido, no pagas',
-                        'Devolución de dinero: 30 días de garantía en todos los servicios',
-                        'Aplica a: Implementación de IA local, soluciones a medida, gestión documental',
-                        'Aplica a: Cumplimiento LOPDP, sistemas de salud ocupacional',
-                        'Excepciones: Venta de equipos y servicios de capacitación',
-                        'Compromiso escrito: Acuerdos claros de entregables y plazos',
-                        'Soporte incluido: Asistencia técnica durante el período de garantía',
-                        'Sin letra pequeña: Condiciones transparentes y justas',
-                        'Tu satisfacción es nuestra prioridad'
-                    ]
-                ]
-            ]
         ]
     ];
 
