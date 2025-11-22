@@ -279,7 +279,40 @@
                     </div>
                     <div class="feature-card" data-modal="modal-soluciones">
                         <div class="feature-icon">
-🔧</div>
+<svg viewBox="0 0 64 64" width="48" height="48" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;">
+  <defs>
+    <linearGradient id="gearGrad48" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="puzzleGrad48" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Engranaje grande (naranja) -->
+  <circle cx="28" cy="32" r="14" fill="url(#gearGrad48)" stroke="#d97706" stroke-width="2"/>
+  <circle cx="28" cy="32" r="6" fill="#0f172a" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="26" y="16" width="4" height="6" rx="1" fill="url(#gearGrad48)"/>
+  <rect x="26" y="42" width="4" height="6" rx="1" fill="url(#gearGrad48)"/>
+  <rect x="42" y="30" width="6" height="4" rx="1" fill="url(#gearGrad48)"/>
+  <rect x="16" y="30" width="6" height="4" rx="1" fill="url(#gearGrad48)"/>
+  <rect x="38" y="20" width="4" height="4" rx="1" fill="url(#gearGrad48)" transform="rotate(45 40 22)"/>
+  <rect x="18" y="20" width="4" height="4" rx="1" fill="url(#gearGrad48)" transform="rotate(-45 20 22)"/>
+  <rect x="38" y="40" width="4" height="4" rx="1" fill="url(#gearGrad48)" transform="rotate(-45 40 42)"/>
+  <rect x="18" y="40" width="4" height="4" rx="1" fill="url(#gearGrad48)" transform="rotate(45 20 42)"/>
+  <!-- Pieza de puzzle (morado) -->
+  <path d="M 44 24 L 44 20 L 52 20 Q 54 20 54 22 L 54 26 Q 54 28 52 28 L 50 28 Q 48 28 48 30 L 48 36 Q 48 38 50 38 L 52 38 Q 54 38 54 40 L 54 44 Q 54 46 52 46 L 44 46 L 44 42 Q 44 40 42 40 L 38 40 Q 36 40 36 42 L 36 46 L 44 46 L 44 24 Z" fill="url(#puzzleGrad48)" stroke="#7c3aed" stroke-width="2"/>
+  <!-- Detalles de conexión -->
+  <circle cx="44" cy="32" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="48" cy="28" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="48" cy="36" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <!-- Líneas de conexión -->
+  <path d="M 38 28 L 42 28" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 38 32 L 42 32" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 38 36 L 42 36" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+</svg>
+</div>
                         <h3>Soluciones IA a la medida</h3>
                         <p>Tiene un problema sin solución? Nuestros expertos en IA lo pueden resolver o ya lo resolvieron para otras organizaciones</p>
                     </div>
@@ -1086,22 +1119,24 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Modelos de inteligencia artificial ejecutándose en tu propia infraestructura (laptop, PC, servidor), tus datos, sin necesidad de conexión a internet</p>
-                <ul class="modal-list">
-                    <li>Datos que nunca salen de tu organización</li>
-                    <li>Cero transferencia a servidores externos o nubes públicas</li>
-                    <li>Control total sobre información confidencial</li>
-                    <li>Inteligencia artificial exclusiva a la medida para tus datos y tus necesidades</li>
-                    <li>Procesamiento de documentos sensibles sin riesgos</li>
-                    <li>Análisis de datos de clientes, pacientes, productos, empleados, contabilidad</li>
-                    <li>Opcional Integración con sistemas existentes</li>
-                    <li>Opcional Multi Agentes. Si tu infraestructura (laptop, PC, servidor) lo permite puedes tener varios agentes / robots / asistentes trabajando al mismo tiempo.</li>
-                    <li>Funciona sin conexión a internet</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="https://iasoloparami.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary modal-btn">Ver detalle y cotizador</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Modelos de inteligencia artificial ejecutándose en tu propia infraestructura (laptop, PC, servidor), tus datos, sin necesidad de conexión a internet</p>
+                    <ul class="modal-list">
+                        <li>Datos que nunca salen de tu organización</li>
+                        <li>Cero transferencia a servidores externos o nubes públicas</li>
+                        <li>Control total sobre información confidencial</li>
+                        <li>Inteligencia artificial exclusiva a la medida para tus datos y tus necesidades</li>
+                        <li>Procesamiento de documentos sensibles sin riesgos</li>
+                        <li>Análisis de datos de clientes, pacientes, productos, empleados, contabilidad</li>
+                        <li>Opcional Integración con sistemas existentes</li>
+                        <li>Opcional Multi Agentes. Si tu infraestructura (laptop, PC, servidor) lo permite puedes tener varios agentes / robots / asistentes trabajando al mismo tiempo.</li>
+                        <li>Funciona sin conexión a internet</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="https://iasoloparami.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary modal-btn modal-action-link">Ver detalle y cotizador</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1117,28 +1152,30 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Cumplimiento real y tecnológico de la Ley Orgánica de Protección de Datos Personales de Ecuador y controles de la Superintendencia SPDP. Mucho más que hacer firmar un papelito!!!</p>
-                <ul class="modal-list">
-                    <li>Aplicamos privacidad y confidencialidad ante todo. Sus datos NUNCA deben subirse a internet</li>
-                    <li>Brindamos servicio para Identificar datos personales simples y sensibles en bases de datos de todo tamaño y modelo</li>
-                    <li>Trabajamos directamente con tus esquemas digitales de datos, sabemos que la documentación no siempre está actualizada</li>
-                    <li>Resoluciones y Marco obligatorio para empresas, organizaciones y peronas para el tratamiento de datos personales</li>
-                    <li>Tratamiento: seudonimización, anonimización, ocultación, encriptado, eliminación, transferencia, consentimiento informado</li>
-                    <li>Métodos directos para identificar y verificar el cumplimiento de los estándares tecnológicos, repositorios / bases de datos / aplicaciones para cumplir con la LOPDP</li>
-                    <li>Recomendaciones para clasificar, sinonimizar, anonimizar y encriptar datos personales simples, sensibles y otros</li>
-                    <li>Cumplimiento con regulaciones y notificaciones de la SPDP (Superintendencia de Protección de Datos Personales)</li>
-                    <li>Políticas de privacidad y consentimiento informado efectivos</li>
-                    <li>Registro de tratamiento de datos personales</li>
-                    <li>Evaluación de impacto en protección de datos (DPIA)</li>
-                    <li>Asistencia en designación de encargado de protección de datos (DPO)</li>
-                    <li>Reportes y evidencias de cumplimiento</li>
-                    <li>Evita multas de USD 1,000 hasta USD 100,000</li>
-                    <li>Preparación para inspecciones de la SPDP</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="#datos-personales" class="btn btn-primary modal-btn">Ver Sección Completa</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Cumplimiento real y tecnológico de la Ley Orgánica de Protección de Datos Personales de Ecuador y controles de la Superintendencia SPDP. Mucho más que hacer firmar un papelito!!!</p>
+                    <ul class="modal-list">
+                        <li>Aplicamos privacidad y confidencialidad ante todo. Sus datos NUNCA deben subirse a internet</li>
+                        <li>Brindamos servicio para Identificar datos personales simples y sensibles en bases de datos de todo tamaño y modelo</li>
+                        <li>Trabajamos directamente con tus esquemas digitales de datos, sabemos que la documentación no siempre está actualizada</li>
+                        <li>Resoluciones y Marco obligatorio para empresas, organizaciones y peronas para el tratamiento de datos personales</li>
+                        <li>Tratamiento: seudonimización, anonimización, ocultación, encriptado, eliminación, transferencia, consentimiento informado</li>
+                        <li>Métodos directos para identificar y verificar el cumplimiento de los estándares tecnológicos, repositorios / bases de datos / aplicaciones para cumplir con la LOPDP</li>
+                        <li>Recomendaciones para clasificar, sinonimizar, anonimizar y encriptar datos personales simples, sensibles y otros</li>
+                        <li>Cumplimiento con regulaciones y notificaciones de la SPDP (Superintendencia de Protección de Datos Personales)</li>
+                        <li>Políticas de privacidad y consentimiento informado efectivos</li>
+                        <li>Registro de tratamiento de datos personales</li>
+                        <li>Evaluación de impacto en protección de datos (DPIA)</li>
+                        <li>Asistencia en designación de encargado de protección de datos (DPO)</li>
+                        <li>Reportes y evidencias de cumplimiento</li>
+                        <li>Evita multas de USD 1,000 hasta USD 100,000</li>
+                        <li>Preparación para inspecciones de la SPDP</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="#datos-personales" class="btn btn-primary modal-btn modal-action-link">Ver Sección Completa</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1154,23 +1191,25 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Sistemas a la medida de cada organización para definir obligaciones y cumplimiento de las 96 obligaciones 2025, SUT, equidad de género, ...</p>
-                <ul class="modal-list">
-                    <li>Herramientas digitales para orientarte en el cumplimiento normativo con el sustento legal</li>
-                    <li>Ayudas para el cumplimiento en inspecciones</li>
-                    <li>Monitoreo de cumplimiento normativo</li>
-                    <li>Herramientas para gestión de comités de SST</li>
-                    <li>Herramientas para gestión de comités de Equidad de Género</li>
-                    <li>Registro de capacitaciones y exámenes médicos</li>
-                    <li>Registro de entrega de documentos a empleados</li>
-                    <li>Alertas de incidentes y accidentes</li>
-                    <li>Evita multas de USD 500 hasta USD 50,000</li>
-                    <li>Evita cierres o suspensiones de tu negocio</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="#salud-ocupacional" class="btn btn-primary modal-btn">Ver Sección Completa</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Sistemas a la medida de cada organización para definir obligaciones y cumplimiento de las 96 obligaciones 2025, SUT, equidad de género, ...</p>
+                    <ul class="modal-list">
+                        <li>Herramientas digitales para orientarte en el cumplimiento normativo con el sustento legal</li>
+                        <li>Ayudas para el cumplimiento en inspecciones</li>
+                        <li>Monitoreo de cumplimiento normativo</li>
+                        <li>Herramientas para gestión de comités de SST</li>
+                        <li>Herramientas para gestión de comités de Equidad de Género</li>
+                        <li>Registro de capacitaciones y exámenes médicos</li>
+                        <li>Registro de entrega de documentos a empleados</li>
+                        <li>Alertas de incidentes y accidentes</li>
+                        <li>Evita multas de USD 500 hasta USD 50,000</li>
+                        <li>Evita cierres o suspensiones de tu negocio</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="#salud-ocupacional" class="btn btn-primary modal-btn modal-action-link">Ver Sección Completa</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1186,22 +1225,24 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Organiza, busca y gestiona documentos con inteligencia artificial. El Ministerio del Trabajo exige desde julio 2025 que cada empleador almacene y gestione sus documentos</p>
-                <ul class="modal-list">
-                    <li>Clasificación automática de documentos según estructura MDT SUT, SRI, IESS, SuperCIAS, SupTel ...</li>
-                    <li>Búsqueda inteligente en lenguaje natural</li>
-                    <li>Control de versiones y trazabilidad completa</li>
-                    <li>Extracción automática de metadatos y de información clave</li>
-                    <li>Workflows de aprobación automatizados</li>
-                    <li>Copias de seguridad y recuperación ante desastres</li>
-                    <li>Cumplimiento con normativas modernas para archivo</li>
-                    <li>Organización eficiente para grandes volúmenes de datos y archivos complejoso</li>
-                    <li>Análisis de contenido con IA</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="#documentacion" class="btn btn-primary modal-btn">Ver Sección Completa</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Organiza, busca y gestiona documentos con inteligencia artificial. El Ministerio del Trabajo exige desde julio 2025 que cada empleador almacene y gestione sus documentos</p>
+                    <ul class="modal-list">
+                        <li>Clasificación automática de documentos según estructura MDT SUT, SRI, IESS, SuperCIAS, SupTel ...</li>
+                        <li>Búsqueda inteligente en lenguaje natural</li>
+                        <li>Control de versiones y trazabilidad completa</li>
+                        <li>Extracción automática de metadatos y de información clave</li>
+                        <li>Workflows de aprobación automatizados</li>
+                        <li>Copias de seguridad y recuperación ante desastres</li>
+                        <li>Cumplimiento con normativas modernas para archivo</li>
+                        <li>Organización eficiente para grandes volúmenes de datos y archivos complejoso</li>
+                        <li>Análisis de contenido con IA</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="#documentacion" class="btn btn-primary modal-btn modal-action-link">Ver Sección Completa</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1210,32 +1251,67 @@
             <div class="modal-header">
                 <div class="modal-title-wrapper">
                     <div class="modal-icon">
-🔧                    </div>
+<svg viewBox="0 0 64 64" width="32" height="32" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;">
+  <defs>
+    <linearGradient id="gearGrad32" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="puzzleGrad32" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Engranaje grande (naranja) -->
+  <circle cx="28" cy="32" r="14" fill="url(#gearGrad32)" stroke="#d97706" stroke-width="2"/>
+  <circle cx="28" cy="32" r="6" fill="#0f172a" stroke="#d97706" stroke-width="1.5"/>
+  <rect x="26" y="16" width="4" height="6" rx="1" fill="url(#gearGrad32)"/>
+  <rect x="26" y="42" width="4" height="6" rx="1" fill="url(#gearGrad32)"/>
+  <rect x="42" y="30" width="6" height="4" rx="1" fill="url(#gearGrad32)"/>
+  <rect x="16" y="30" width="6" height="4" rx="1" fill="url(#gearGrad32)"/>
+  <rect x="38" y="20" width="4" height="4" rx="1" fill="url(#gearGrad32)" transform="rotate(45 40 22)"/>
+  <rect x="18" y="20" width="4" height="4" rx="1" fill="url(#gearGrad32)" transform="rotate(-45 20 22)"/>
+  <rect x="38" y="40" width="4" height="4" rx="1" fill="url(#gearGrad32)" transform="rotate(-45 40 42)"/>
+  <rect x="18" y="40" width="4" height="4" rx="1" fill="url(#gearGrad32)" transform="rotate(45 20 42)"/>
+  <!-- Pieza de puzzle (morado) -->
+  <path d="M 44 24 L 44 20 L 52 20 Q 54 20 54 22 L 54 26 Q 54 28 52 28 L 50 28 Q 48 28 48 30 L 48 36 Q 48 38 50 38 L 52 38 Q 54 38 54 40 L 54 44 Q 54 46 52 46 L 44 46 L 44 42 Q 44 40 42 40 L 38 40 Q 36 40 36 42 L 36 46 L 44 46 L 44 24 Z" fill="url(#puzzleGrad32)" stroke="#7c3aed" stroke-width="2"/>
+  <!-- Detalles de conexión -->
+  <circle cx="44" cy="32" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="48" cy="28" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="48" cy="36" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <!-- Líneas de conexión -->
+  <path d="M 38 28 L 42 28" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 38 32 L 42 32" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 38 36 L 42 36" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>
+</svg>
+                    </div>
                     <h2>Soluciones de IA Personalizadas</h2>
                 </div>
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Desarrollo de soluciones específicas para problemas complejos SRI, IESS, MDT, SuperCias, ...</p>
-                <ul class="modal-list">
-                    <li>Servicios de descarga de comprobantes de compra y venta desde el SRI</li>
-                    <li>Generación masiva y automática de retenciones electrónicas en la fuente</li>
-                    <li>Generación masiva y automática de facturas recurrentes</li>
-                    <li>Sistema Hable con sus datos para que pueda hacer preguntas y consultas a sus bases de datos, pdfs, hojas electrónicas, imágenes, etc.</li>
-                    <li>Emparejamiento codificación SRI, SuperCIAS, SENAE, SERCOP, ...</li>
-                    <li>Análisis profundo de necesidades específicas</li>
-                    <li>Arquitectura personalizada conforme regulaciones</li>
-                    <li>Velocidad de procesamiento optimizada</li>
-                    <li>Alta disponibilidad y redundancia</li>
-                    <li>Confidencialidad con encriptación end-to-end</li>
-                    <li>Integridad de datos con validación automática</li>
-                    <li>Escalabilidad para crecimiento futuro</li>
-                    <li>Casos de éxito en múltiples sectores</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="#soluciones" class="btn btn-primary modal-btn">Ver Sección Completa</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Desarrollo de soluciones específicas para problemas complejos SRI, IESS, MDT, SuperCias, ...</p>
+                    <ul class="modal-list">
+                        <li>Servicios de descarga de comprobantes de compra y venta desde el SRI</li>
+                        <li>Generación masiva y automática de retenciones electrónicas en la fuente</li>
+                        <li>Generación masiva y automática de facturas recurrentes</li>
+                        <li>Sistema Hable con sus datos para que pueda hacer preguntas y consultas a sus bases de datos, pdfs, hojas electrónicas, imágenes, etc.</li>
+                        <li>Emparejamiento codificación SRI, SuperCIAS, SENAE, SERCOP, ...</li>
+                        <li>Análisis profundo de necesidades específicas</li>
+                        <li>Arquitectura personalizada conforme regulaciones</li>
+                        <li>Velocidad de procesamiento optimizada</li>
+                        <li>Alta disponibilidad y redundancia</li>
+                        <li>Confidencialidad con encriptación end-to-end</li>
+                        <li>Integridad de datos con validación automática</li>
+                        <li>Escalabilidad para crecimiento futuro</li>
+                        <li>Casos de éxito en múltiples sectores</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="#soluciones" class="btn btn-primary modal-btn modal-action-link">Ver Sección Completa</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1251,21 +1327,23 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Estamos tan seguros de la calidad de nuestros servicios que ofrecemos garantía total de satisfacción</p>
-                <ul class="modal-list">
-                    <li>Resultados inmediatos: Soluciones implementadas y funcionando rápidamente</li>
-                    <li>Garantía de resultados: Si no cumplimos lo prometido, no pagas</li>
-                    <li>Aplica a: Servicios, Cumplimiento LOPDP, SUT, SST, IESS, sistemas de salud ocupacional</li>
-                    <li>Excepciones: Venta de equipos y servicios de capacitación</li>
-                    <li>Compromiso escrito: Acuerdos claros de entregables y plazos</li>
-                    <li>Soporte incluido: Asistencia técnica durante el período de garantía</li>
-                    <li>Sin letra pequeña: Condiciones transparentes y justas</li>
-                    <li>Tu satisfacción es nuestra prioridad</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="#contacto" class="btn btn-primary modal-btn">Ver Sección Completa</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Estamos tan seguros de la calidad de nuestros servicios que ofrecemos garantía total de satisfacción</p>
+                    <ul class="modal-list">
+                        <li>Resultados inmediatos: Soluciones implementadas y funcionando rápidamente</li>
+                        <li>Garantía de resultados: Si no cumplimos lo prometido, no pagas</li>
+                        <li>Aplica a: Servicios, Cumplimiento LOPDP, SUT, SST, IESS, sistemas de salud ocupacional</li>
+                        <li>Excepciones: Venta de equipos y servicios de capacitación</li>
+                        <li>Compromiso escrito: Acuerdos claros de entregables y plazos</li>
+                        <li>Soporte incluido: Asistencia técnica durante el período de garantía</li>
+                        <li>Sin letra pequeña: Condiciones transparentes y justas</li>
+                        <li>Tu satisfacción es nuestra prioridad</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="#contacto" class="btn btn-primary modal-btn modal-action-link">Ver Sección Completa</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1280,21 +1358,23 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Programas de formación especializados para tu personal</p>
-                <ul class="modal-list">
-                    <li>Workshops presenciales y virtuales</li>
-                    <li>Nivel básico: introducción a IA para quienes toman decisiones</li>
-                    <li>Nivel intermedio: implementación para especialistas TI</li>
-                    <li>Nivel avanzado: desarrolladores, ingenieros y arquitectos de sistemas</li>
-                    <li>Certificados de participación</li>
-                    <li>Prácticas en laboratorio con casos reales</li>
-                    <li>Material didáctico y recursos continuos</li>
-                    <li>Grupos de hasta 20 personas</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="https://expertosenia.net" target="_blank" rel="noopener noreferrer" class="btn btn-primary modal-btn">Abrir ExpertosEnIa.net</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Programas de formación especializados para tu personal</p>
+                    <ul class="modal-list">
+                        <li>Workshops presenciales y virtuales</li>
+                        <li>Nivel básico: introducción a IA para quienes toman decisiones</li>
+                        <li>Nivel intermedio: implementación para especialistas TI</li>
+                        <li>Nivel avanzado: desarrolladores, ingenieros y arquitectos de sistemas</li>
+                        <li>Certificados de participación</li>
+                        <li>Prácticas en laboratorio con casos reales</li>
+                        <li>Material didáctico y recursos continuos</li>
+                        <li>Grupos de hasta 20 personas</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="https://expertosenia.net" target="_blank" rel="noopener noreferrer" class="btn btn-primary modal-btn modal-action-link">Abrir ExpertosEnIa.net</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1309,21 +1389,23 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Acompañamiento permanente en tu transformación digital con especialistas experimentados</p>
-                <ul class="modal-list">
-                    <li>Disponibilidad 24/7 para incidencias críticas</li>
-                    <li>SLA garantizado según nivel de servicio</li>
-                    <li>Monitoreo proactivo de sistemas</li>
-                    <li>Actualizaciones de seguridad automáticas</li>
-                    <li>Optimización continua de rendimiento</li>
-                    <li>Asesoría estratégica para nuevos casos de uso</li>
-                    <li>Escalamiento rápido de recursos</li>
-                    <li>Garantía de funcionamiento</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="#contacto" class="btn btn-primary modal-btn">Ver Sección Completa</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Acompañamiento permanente en tu transformación digital con especialistas experimentados</p>
+                    <ul class="modal-list">
+                        <li>Disponibilidad 24/7 para incidencias críticas</li>
+                        <li>SLA garantizado según nivel de servicio</li>
+                        <li>Monitoreo proactivo de sistemas</li>
+                        <li>Actualizaciones de seguridad automáticas</li>
+                        <li>Optimización continua de rendimiento</li>
+                        <li>Asesoría estratégica para nuevos casos de uso</li>
+                        <li>Escalamiento rápido de recursos</li>
+                        <li>Garantía de funcionamiento</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="#contacto" class="btn btn-primary modal-btn modal-action-link">Ver Sección Completa</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1338,18 +1420,20 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">Evalúa tu nivel de conocimiento y experiencia en diferentes áreas de IA con nuestros tests especializados</p>
-                <ul class="modal-list">
-                    <li>Tests por actividades: generales, académicas, técnicas, médicas</li>
-                    <li>Tests especializados para especialistas en IA</li>
-                    <li>Tests especializados para estudiantes y profesores</li>
-                    <li>Tests especializados para expertos en hojas electrónicas</li>
-                    <li>Te podemos ayudar para que mejores tu suficiencia en IA</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="https://expertosenia.net/test" target="_blank" rel="noopener noreferrer" class="btn btn-primary modal-btn">Realizar Tests</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">Evalúa tu nivel de conocimiento y experiencia en diferentes áreas de IA con nuestros tests especializados</p>
+                    <ul class="modal-list">
+                        <li>Tests por actividades: generales, académicas, técnicas, médicas</li>
+                        <li>Tests especializados para especialistas en IA</li>
+                        <li>Tests especializados para estudiantes y profesores</li>
+                        <li>Tests especializados para expertos en hojas electrónicas</li>
+                        <li>Te podemos ayudar para que mejores tu suficiencia en IA</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="https://expertosenia.net/test" target="_blank" rel="noopener noreferrer" class="btn btn-primary modal-btn modal-action-link">Realizar Tests</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>
@@ -1413,25 +1497,27 @@
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <p class="modal-description">La IA procesa grandes volúmenes de datos, pero son nuestros expertos humanos quienes toman las decisiones finales, garantizando soluciones aplicables y efectivas</p>
-                <ul class="modal-list">
-                    <li>IA procesa millones de registros en segundos, humanos interpretan el contexto</li>
-                    <li>IA identifica patrones ocultos, humanos validan su relevancia</li>
-                    <li>IA genera múltiples escenarios, humanos eligen la mejor estrategia</li>
-                    <li>IA realiza inferencias estadísticas, humanos aplican juicio experto</li>
-                    <li>IA produce resúmenes automáticos, humanos verifican precisión</li>
-                    <li>IA proyecta tendencias futuras, humanos ajustan según realidad del negocio</li>
-                    <li>IA sugiere optimizaciones, humanos evalúan viabilidad práctica</li>
-                    <li>IA detecta anomalías, humanos investigan causas raíz</li>
-                    <li>IA automatiza tareas repetitivas, humanos se enfocan en decisiones estratégicas</li>
-                    <li>IA aprende de datos históricos, humanos aportan conocimiento del dominio</li>
-                    <li>IA opera 24/7 sin fatiga, humanos supervisan y ajustan continuamente</li>
-                    <li>Resultado: Soluciones tecnológicamente avanzadas y humanamente aplicables</li>
-                </ul>
-                <div class="modal-actions">
-                    <a href="#contacto" class="btn btn-primary modal-btn">Ver Sección Completa</a>
-                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
+                <div class="modal-body-content">
+                    <p class="modal-description">La IA procesa grandes volúmenes de datos, pero son nuestros expertos humanos quienes toman las decisiones finales, garantizando soluciones aplicables y efectivas</p>
+                    <ul class="modal-list">
+                        <li>IA procesa millones de registros en segundos, humanos interpretan el contexto</li>
+                        <li>IA identifica patrones ocultos, humanos validan su relevancia</li>
+                        <li>IA genera múltiples escenarios, humanos eligen la mejor estrategia</li>
+                        <li>IA realiza inferencias estadísticas, humanos aplican juicio experto</li>
+                        <li>IA produce resúmenes automáticos, humanos verifican precisión</li>
+                        <li>IA proyecta tendencias futuras, humanos ajustan según realidad del negocio</li>
+                        <li>IA sugiere optimizaciones, humanos evalúan viabilidad práctica</li>
+                        <li>IA detecta anomalías, humanos investigan causas raíz</li>
+                        <li>IA automatiza tareas repetitivas, humanos se enfocan en decisiones estratégicas</li>
+                        <li>IA aprende de datos históricos, humanos aportan conocimiento del dominio</li>
+                        <li>IA opera 24/7 sin fatiga, humanos supervisan y ajustan continuamente</li>
+                        <li>Resultado: Soluciones tecnológicamente avanzadas y humanamente aplicables</li>
+                    </ul>
                 </div>
+            </div>
+            <div class="modal-actions">
+                <a href="#contacto" class="btn btn-primary modal-btn modal-action-link">Ver Sección Completa</a>
+                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>
             </div>
         </div>
     </div>

@@ -154,6 +154,21 @@ modalCloseButtons.forEach(button => {
     });
 });
 
+// Close modal when clicking action link (and allow navigation)
+const modalActionLinks = document.querySelectorAll('.modal-action-link');
+modalActionLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        const modal = link.closest('.modal');
+        if (modal) {
+            // Small delay to allow navigation to start before closing modal
+            setTimeout(() => {
+                modal.classList.remove('active');
+                document.body.style.overflow = ''; // Restore scroll
+            }, 100);
+        }
+    });
+});
+
 // Close modal when clicking outside
 modals.forEach(modal => {
     modal.addEventListener('click', (e) => {

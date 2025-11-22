@@ -144,7 +144,7 @@ class IA {
                 ]
             ],
             [
-                'icon' => '🔧',
+                'icon' => 'svg-custom-solutions',
                 'title' => 'Soluciones IA a la medida',
                 'text' => 'Tiene un problema sin solución? Nuestros expertos en IA lo pueden resolver o ya lo resolvieron para otras organizaciones',
                 'modal_id' => 'modal-soluciones',
@@ -1014,6 +1014,8 @@ class IA {
                 print '  <circle cx="44" cy="42" r="7" fill="#059669" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/>'.L;
                 print '  <text x="44" y="44" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">30d</text>'.L;
                 print '</svg>'.L;
+            } elseif ($feature['icon'] === 'svg-custom-solutions') {
+                self::renderIcon($feature['icon'], '48');
             } elseif ($feature['icon'] === 'svg-human-ai-synergy') {
                 self::renderIcon($feature['icon'], '48');
             } else {
@@ -1092,6 +1094,40 @@ class IA {
             print '  <circle cx="46" cy="54" r="1.5" fill="#8b5cf6" opacity="0.6"/>'.L;
             print '  <circle cx="40" cy="52" r="1.5" fill="#8b5cf6" opacity="0.6"/>'.L;
             print '</svg>'.L;
+        } elseif ($icon === 'svg-custom-solutions') {
+            print '<svg viewBox="0 0 64 64" width="'.$size.'" height="'.$size.'" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;">'.L;
+            print '  <defs>'.L;
+            print '    <linearGradient id="gearGrad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+            print '      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:1" />'.L;
+            print '      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />'.L;
+            print '    </linearGradient>'.L;
+            print '    <linearGradient id="puzzleGrad'.$size.'" x1="0%" y1="0%" x2="100%" y2="100%">'.L;
+            print '      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />'.L;
+            print '      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />'.L;
+            print '    </linearGradient>'.L;
+            print '  </defs>'.L;
+            print '  <!-- Engranaje grande (naranja) -->'.L;
+            print '  <circle cx="28" cy="32" r="14" fill="url(#gearGrad'.$size.')" stroke="#d97706" stroke-width="2"/>'.L;
+            print '  <circle cx="28" cy="32" r="6" fill="#0f172a" stroke="#d97706" stroke-width="1.5"/>'.L;
+            print '  <rect x="26" y="16" width="4" height="6" rx="1" fill="url(#gearGrad'.$size.')"/>'.L;
+            print '  <rect x="26" y="42" width="4" height="6" rx="1" fill="url(#gearGrad'.$size.')"/>'.L;
+            print '  <rect x="42" y="30" width="6" height="4" rx="1" fill="url(#gearGrad'.$size.')"/>'.L;
+            print '  <rect x="16" y="30" width="6" height="4" rx="1" fill="url(#gearGrad'.$size.')"/>'.L;
+            print '  <rect x="38" y="20" width="4" height="4" rx="1" fill="url(#gearGrad'.$size.')" transform="rotate(45 40 22)"/>'.L;
+            print '  <rect x="18" y="20" width="4" height="4" rx="1" fill="url(#gearGrad'.$size.')" transform="rotate(-45 20 22)"/>'.L;
+            print '  <rect x="38" y="40" width="4" height="4" rx="1" fill="url(#gearGrad'.$size.')" transform="rotate(-45 40 42)"/>'.L;
+            print '  <rect x="18" y="40" width="4" height="4" rx="1" fill="url(#gearGrad'.$size.')" transform="rotate(45 20 42)"/>'.L;
+            print '  <!-- Pieza de puzzle (morado) -->'.L;
+            print '  <path d="M 44 24 L 44 20 L 52 20 Q 54 20 54 22 L 54 26 Q 54 28 52 28 L 50 28 Q 48 28 48 30 L 48 36 Q 48 38 50 38 L 52 38 Q 54 38 54 40 L 54 44 Q 54 46 52 46 L 44 46 L 44 42 Q 44 40 42 40 L 38 40 Q 36 40 36 42 L 36 46 L 44 46 L 44 24 Z" fill="url(#puzzleGrad'.$size.')" stroke="#7c3aed" stroke-width="2"/>'.L;
+            print '  <!-- Detalles de conexión -->'.L;
+            print '  <circle cx="44" cy="32" r="2" fill="#ffffff" opacity="0.8"/>'.L;
+            print '  <circle cx="48" cy="28" r="1.5" fill="#ffffff" opacity="0.6"/>'.L;
+            print '  <circle cx="48" cy="36" r="1.5" fill="#ffffff" opacity="0.6"/>'.L;
+            print '  <!-- Líneas de conexión -->'.L;
+            print '  <path d="M 38 28 L 42 28" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>'.L;
+            print '  <path d="M 38 32 L 42 32" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>'.L;
+            print '  <path d="M 38 36 L 42 36" stroke="#10b981" stroke-width="2" stroke-linecap="round"/>'.L;
+            print '</svg>'.L;
         } else {
             print $icon;
         }
@@ -1113,18 +1149,20 @@ class IA {
             print '                <button class="modal-close">&times;</button>'.L;
             print '            </div>'.L;
             print '            <div class="modal-body">'.L;
-            print '                <p class="modal-description">'.$feature['modal_content']['description'].'</p>'.L;
-            print '                <ul class="modal-list">'.L;
+            print '                <div class="modal-body-content">'.L;
+            print '                    <p class="modal-description">'.$feature['modal_content']['description'].'</p>'.L;
+            print '                    <ul class="modal-list">'.L;
             foreach ($feature['modal_content']['points'] as $point) {
-                print '                    <li>'.$point.'</li>'.L;
+                print '                        <li>'.$point.'</li>'.L;
             }
-            print '                </ul>'.L;
-            print '                <div class="modal-actions">'.L;
+            print '                    </ul>'.L;
+            print '                </div>'.L;
+            print '            </div>'.L;
+            print '            <div class="modal-actions">'.L;
             $linkText = isset($feature['section_link_text']) ? $feature['section_link_text'] : 'Ver Sección Completa';
             $linkTarget = isset($feature['section_link_external']) && $feature['section_link_external'] ? ' target="_blank" rel="noopener noreferrer"' : '';
-            print '                    <a href="'.$feature['section_link'].'"'.$linkTarget.' class="btn btn-primary modal-btn">'.$linkText.'</a>'.L;
-            print '                    <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>'.L;
-            print '                </div>'.L;
+            print '                <a href="'.$feature['section_link'].'"'.$linkTarget.' class="btn btn-primary modal-btn modal-action-link">'.$linkText.'</a>'.L;
+            print '                <button class="btn btn-secondary modal-btn modal-close-btn">Cerrar</button>'.L;
             print '            </div>'.L;
             print '        </div>'.L;
             print '    </div>'.L;
