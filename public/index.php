@@ -251,6 +251,31 @@ class IA {
                     ]
                 ]
             ],
+            [
+                'icon' => 'svg-human-ai-synergy',
+                'title' => 'La IA analiza datos, el ser humano toma decisiones',
+                'text' => 'Simbiosis perfecta entre inteligencia artificial y experiencia humana',
+                'modal_id' => 'modal-human-ai',
+                'section_link' => '#contacto',
+                'modal_content' => [
+                    'title' => 'Simbiosis: Inteligencia Artificial + Experiencia Humana',
+                    'description' => 'La IA procesa grandes volúmenes de datos, pero son nuestros expertos humanos quienes toman las decisiones finales, garantizando soluciones aplicables y efectivas',
+                    'points' => [
+                        'IA procesa millones de registros en segundos, humanos interpretan el contexto',
+                        'IA identifica patrones ocultos, humanos validan su relevancia',
+                        'IA genera múltiples escenarios, humanos eligen la mejor estrategia',
+                        'IA realiza inferencias estadísticas, humanos aplican juicio experto',
+                        'IA produce resúmenes automáticos, humanos verifican precisión',
+                        'IA proyecta tendencias futuras, humanos ajustan según realidad del negocio',
+                        'IA sugiere optimizaciones, humanos evalúan viabilidad práctica',
+                        'IA detecta anomalías, humanos investigan causas raíz',
+                        'IA automatiza tareas repetitivas, humanos se enfocan en decisiones estratégicas',
+                        'IA aprende de datos históricos, humanos aportan conocimiento del dominio',
+                        'IA opera 24/7 sin fatiga, humanos supervisan y ajustan continuamente',
+                        'Resultado: Soluciones tecnológicamente avanzadas y humanamente aplicables'
+                    ]
+                ]
+            ],
         ]
     ];
 
@@ -894,6 +919,8 @@ class IA {
                 print '  <circle cx="44" cy="42" r="7" fill="#059669" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/>'.L;
                 print '  <text x="44" y="44" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">30d</text>'.L;
                 print '</svg>'.L;
+            } elseif ($feature['icon'] === 'svg-human-ai-synergy') {
+                self::renderIcon($feature['icon'], '48');
             } else {
                 print $feature['icon'];
             }
@@ -920,6 +947,56 @@ class IA {
             print '<svg viewBox="0 0 64 64" width="'.$size.'" height="'.$size.'" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;"><defs><linearGradient id="doc1Grad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" /><stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" /></linearGradient><linearGradient id="doc2Grad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#34d399;stop-opacity:1" /><stop offset="100%" style="stop-color:#10b981;stop-opacity:1" /></linearGradient><linearGradient id="doc3Grad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" /><stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" /></linearGradient><linearGradient id="brainGrad'.$size.'" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#f472b6;stop-opacity:1" /><stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" /></linearGradient></defs><rect x="8" y="20" width="16" height="22" rx="1.5" fill="url(#doc1Grad'.$size.')" stroke="#2563eb" stroke-width="1.5"/><line x1="11" y1="25" x2="21" y2="25" stroke="#ffffff" stroke-width="1" opacity="0.7"/><line x1="11" y1="29" x2="21" y2="29" stroke="#ffffff" stroke-width="1" opacity="0.7"/><line x1="11" y1="33" x2="18" y2="33" stroke="#ffffff" stroke-width="1" opacity="0.7"/><rect x="18" y="16" width="16" height="22" rx="1.5" fill="url(#doc2Grad'.$size.')" stroke="#059669" stroke-width="1.5"/><line x1="21" y1="21" x2="31" y2="21" stroke="#ffffff" stroke-width="1" opacity="0.7"/><line x1="21" y1="25" x2="31" y2="25" stroke="#ffffff" stroke-width="1" opacity="0.7"/><line x1="21" y1="29" x2="28" y2="29" stroke="#ffffff" stroke-width="1" opacity="0.7"/><rect x="28" y="22" width="16" height="22" rx="1.5" fill="url(#doc3Grad'.$size.')" stroke="#7c3aed" stroke-width="1.5"/><line x1="31" y1="27" x2="41" y2="27" stroke="#ffffff" stroke-width="1" opacity="0.7"/><line x1="31" y1="31" x2="41" y2="31" stroke="#ffffff" stroke-width="1" opacity="0.7"/><line x1="31" y1="35" x2="38" y2="35" stroke="#ffffff" stroke-width="1" opacity="0.7"/><ellipse cx="48" cy="38" rx="11" ry="13" fill="url(#brainGrad'.$size.')" stroke="#db2777" stroke-width="2"/><path d="M 42 32 Q 44 34 42 36" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/><path d="M 46 30 Q 48 32 46 34" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/><path d="M 50 30 Q 52 32 50 34" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/><path d="M 54 32 Q 52 34 54 36" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/><path d="M 42 38 Q 44 40 42 42" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/><path d="M 46 40 Q 48 42 46 44" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/><path d="M 50 40 Q 52 42 50 44" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/><path d="M 54 38 Q 52 40 54 42" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/><circle cx="44" cy="36" r="1.5" fill="#ffffff" opacity="0.8"/><circle cx="48" cy="38" r="1.5" fill="#ffffff" opacity="0.8"/><circle cx="52" cy="36" r="1.5" fill="#ffffff" opacity="0.8"/><circle cx="46" cy="42" r="1.5" fill="#ffffff" opacity="0.8"/><circle cx="50" cy="42" r="1.5" fill="#ffffff" opacity="0.8"/></svg>'.L;
         } elseif ($icon === 'svg-guarantee-money') {
             print '<svg viewBox="0 0 64 64" width="'.$size.'" height="'.$size.'" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;"><defs><linearGradient id="shieldGrad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#34d399;stop-opacity:1" /><stop offset="100%" style="stop-color:#10b981;stop-opacity:1" /></linearGradient><linearGradient id="dollarGrad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" /><stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" /></linearGradient></defs><path d="M 32 8 L 48 16 L 48 32 Q 48 48 32 56 Q 16 48 16 32 L 16 16 Z" fill="url(#shieldGrad'.$size.')" stroke="#059669" stroke-width="2.5"/><path d="M 32 12 L 44 18 L 44 32 Q 44 44 32 50 Q 20 44 20 32 L 20 18 Z" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.3"/><text x="32" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#dollarGrad'.$size.')" text-anchor="middle" stroke="#d97706" stroke-width="0.5">$</text><circle cx="24" cy="24" r="6" fill="none" stroke="url(#dollarGrad'.$size.')" stroke-width="2.5"/><text x="24" y="28" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="url(#dollarGrad'.$size.')" text-anchor="middle">0</text><path d="M 26 42 L 30 46 L 38 36" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="20" r="2" fill="#fbbf24" opacity="0.8"/><circle cx="46" cy="26" r="1.5" fill="#fbbf24" opacity="0.6"/><circle cx="44" cy="42" r="7" fill="#059669" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/><text x="44" y="44" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">30d</text></svg>'.L;
+        } elseif ($icon === 'svg-human-ai-synergy') {
+            print '<svg viewBox="0 0 64 64" width="'.$size.'" height="'.$size.'" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;">'.L;
+            print '  <defs>'.L;
+            print '    <linearGradient id="humanGrad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+            print '      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />'.L;
+            print '      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />'.L;
+            print '    </linearGradient>'.L;
+            print '    <linearGradient id="aiGrad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+            print '      <stop offset="0%" style="stop-color:#a78bfa;stop-opacity:1" />'.L;
+            print '      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />'.L;
+            print '    </linearGradient>'.L;
+            print '    <linearGradient id="connectionGrad'.$size.'" x1="0%" y1="0%" x2="100%" y2="0%">'.L;
+            print '      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />'.L;
+            print '      <stop offset="50%" style="stop-color:#10b981;stop-opacity:1" />'.L;
+            print '      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />'.L;
+            print '    </linearGradient>'.L;
+            print '  </defs>'.L;
+            print '  <!-- Humano (izquierda - azul) -->'.L;
+            print '  <circle cx="18" cy="24" r="8" fill="url(#humanGrad'.$size.')" stroke="#2563eb" stroke-width="2"/>'.L;
+            print '  <circle cx="15" cy="22" r="1.5" fill="#ffffff"/>'.L;
+            print '  <circle cx="21" cy="22" r="1.5" fill="#ffffff"/>'.L;
+            print '  <path d="M 14 27 Q 18 29 22 27" fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>'.L;
+            print '  <path d="M 10 32 L 10 42 L 14 42 L 14 50 M 22 42 L 26 42 L 26 50 M 10 36 L 26 36" fill="none" stroke="url(#humanGrad'.$size.')" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+            print '  <!-- IA/Cerebro (derecha - morado) -->'.L;
+            print '  <ellipse cx="46" cy="24" rx="9" ry="10" fill="url(#aiGrad'.$size.')" stroke="#7c3aed" stroke-width="2"/>'.L;
+            print '  <path d="M 40 20 Q 42 22 40 24" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>'.L;
+            print '  <path d="M 44 18 Q 46 20 44 22" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>'.L;
+            print '  <path d="M 48 18 Q 50 20 48 22" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>'.L;
+            print '  <path d="M 52 20 Q 50 22 52 24" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>'.L;
+            print '  <path d="M 40 26 Q 42 28 40 30" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>'.L;
+            print '  <path d="M 48 28 Q 50 30 48 32" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>'.L;
+            print '  <path d="M 52 26 Q 50 28 52 30" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.7"/>'.L;
+            print '  <circle cx="42" cy="24" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
+            print '  <circle cx="46" cy="26" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
+            print '  <circle cx="50" cy="24" r="1.5" fill="#ffffff" opacity="0.8"/>'.L;
+            print '  <!-- Conexión/Sinergia (centro - verde) -->'.L;
+            print '  <path d="M 26 32 Q 32 28 38 32" fill="none" stroke="url(#connectionGrad'.$size.')" stroke-width="3" stroke-linecap="round"/>'.L;
+            print '  <circle cx="32" cy="29" r="4" fill="#10b981" stroke="#059669" stroke-width="2"/>'.L;
+            print '  <path d="M 30 29 L 32 31 L 34 27" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+            print '  <!-- Flechas bidireccionales -->'.L;
+            print '  <path d="M 28 40 L 32 44 L 36 40" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+            print '  <path d="M 36 48 L 32 44 L 28 48" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+            print '  <!-- Datos (símbolos) -->'.L;
+            print '  <circle cx="12" cy="52" r="1.5" fill="#3b82f6" opacity="0.6"/>'.L;
+            print '  <circle cx="18" cy="54" r="1.5" fill="#3b82f6" opacity="0.6"/>'.L;
+            print '  <circle cx="24" cy="52" r="1.5" fill="#3b82f6" opacity="0.6"/>'.L;
+            print '  <circle cx="52" cy="52" r="1.5" fill="#8b5cf6" opacity="0.6"/>'.L;
+            print '  <circle cx="46" cy="54" r="1.5" fill="#8b5cf6" opacity="0.6"/>'.L;
+            print '  <circle cx="40" cy="52" r="1.5" fill="#8b5cf6" opacity="0.6"/>'.L;
+            print '</svg>'.L;
         } else {
             print $icon;
         }
