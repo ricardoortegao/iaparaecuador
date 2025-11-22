@@ -65,6 +65,7 @@ class IA {
                         'Procesamiento de documentos sensibles sin riesgos',
                         'Análisis de datos de clientes, pacientes, productos, empleados, contabilidad',
                         'Opcional Integración con sistemas existentes',
+                        'Opcional Multi Agentes. Si tu infraestructura (laptop, PC, servidor) lo permite puedes tener varios agentes / robots / asistentes trabajando al mismo tiempo.',
                         'Funciona sin conexión a internet'
                     ]
                 ]
