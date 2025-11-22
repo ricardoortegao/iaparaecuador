@@ -705,6 +705,56 @@ class IA {
     // MÉTODOS DE RENDERIZADO
     // ===================================
     
+    public static function renderJsonLD() {
+        print '    <script type="application/ld+json">'.L;
+        print '    {'.L;
+        print '      "@context": "https://schema.org",'.L;
+        print '      "@type": "Organization",'.L;
+        print '      "name": "IA para Ecuador",'.L;
+        print '      "url": "https://iaparaecuador.com",'.L;
+        print '      "logo": "https://iaparaecuador.com/favicon.svg",'.L;
+        print '      "description": "Soluciones de Inteligencia Artificial local, privada y confidencial para Ecuador",'.L;
+        print '      "address": {'.L;
+        print '        "@type": "PostalAddress",'.L;
+        print '        "addressLocality": "Quito",'.L;
+        print '        "addressCountry": "EC"'.L;
+        print '      },'.L;
+        print '      "contactPoint": {'.L;
+        print '        "@type": "ContactPoint",'.L;
+        print '        "telephone": "+593-2-252-4710",'.L;
+        print '        "contactType": "customer service",'.L;
+        print '        "email": "contacto@libresoft.ec",'.L;
+        print '        "availableLanguage": "Spanish"'.L;
+        print '      },'.L;
+        print '      "sameAs": ['.L;
+        print '        "https://iasoloparami.com",'.L;
+        print '        "https://expertosenia.net"'.L;
+        print '      ],'.L;
+        print '      "areaServed": "EC",'.L;
+        print '      "serviceType": ['.L;
+        print '        "Inteligencia Artificial Local",'.L;
+        print '        "Cumplimiento LOPDP",'.L;
+        print '        "Gestión Documental",'.L;
+        print '        "Salud Ocupacional",'.L;
+        print '        "Capacitación en IA"'.L;
+        print '      ]'.L;
+        print '    }'.L;
+        print '    </script>'.L;
+        print '    <script type="application/ld+json">'.L;
+        print '    {'.L;
+        print '      "@context": "https://schema.org",'.L;
+        print '      "@type": "WebSite",'.L;
+        print '      "name": "IA para Ecuador",'.L;
+        print '      "url": "https://iaparaecuador.com",'.L;
+        print '      "potentialAction": {'.L;
+        print '        "@type": "SearchAction",'.L;
+        print '        "target": "https://iaparaecuador.com/?s={search_term_string}",'.L;
+        print '        "query-input": "required name=search_term_string"'.L;
+        print '      }'.L;
+        print '    }'.L;
+        print '    </script>'.L;
+    }
+
     public static function renderHead() {
         $meta = self::$meta;
         print '<!DOCTYPE html>'.L;
@@ -714,7 +764,28 @@ class IA {
         print '    <meta name="viewport" content="width=device-width, initial-scale=1.0">'.L;
         print '    <title>'.$meta['title'].'</title>'.L;
         print '    <meta name="description" content="'.$meta['description'].'">'.L;
+        print '    <meta name="keywords" content="IA Ecuador, Inteligencia Artificial, IA Local, IA Privada, LOPDP, Protección Datos, Salud Ocupacional, Gestión Documental, IA Confidencial">'.L;
+        print '    <meta name="author" content="IA para Ecuador">'.L;
+        print '    <meta name="robots" content="index, follow">'.L;
+        print '    <link rel="canonical" href="https://iaparaecuador.com/">'.L;
         print '    <link rel="icon" type="image/svg+xml" href="'.$meta['favicon'].'">'.L;
+        print '    <link rel="manifest" href="/manifest.json">'.L;
+        print '    <meta name="theme-color" content="#8b5cf6">'.L;
+        print '    <!-- Open Graph / Facebook -->'.L;
+        print '    <meta property="og:type" content="website">'.L;
+        print '    <meta property="og:url" content="https://iaparaecuador.com/">'.L;
+        print '    <meta property="og:title" content="'.$meta['title'].'">'.L;
+        print '    <meta property="og:description" content="'.$meta['description'].'">'.L;
+        print '    <meta property="og:image" content="https://iaparaecuador.com/og-image.png">'.L;
+        print '    <meta property="og:locale" content="es_EC">'.L;
+        print '    <!-- Twitter -->'.L;
+        print '    <meta property="twitter:card" content="summary_large_image">'.L;
+        print '    <meta property="twitter:url" content="https://iaparaecuador.com/">'.L;
+        print '    <meta property="twitter:title" content="'.$meta['title'].'">'.L;
+        print '    <meta property="twitter:description" content="'.$meta['description'].'">'.L;
+        print '    <meta property="twitter:image" content="https://iaparaecuador.com/og-image.png">'.L;
+        print '    <!-- JSON-LD Schema -->'.L;
+        self::renderJsonLD();
         print '    <link rel="stylesheet" href="'.$meta['css'].'">'.L;
         print '</head>'.L;
         print '<body>'.L;
