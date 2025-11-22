@@ -8,8 +8,8 @@ class IA {
     public static $meta = [
         'charset' => 'UTF-8',
         'lang' => 'es',
-        'title' => 'IA para Ecuador - Inteligencia Artificial Local y Privada',
-        'description' => 'Soluciones de Inteligencia Artificial local, privada y confidencial para Ecuador. Cumplimiento LOPDP, gestión documental, salud ocupacional.',
+        'title' => 'Soluciones IA con inmediata aplicación en Ecuador',
+        'description' => 'Soluciones de Inteligencia Artificial local, privada y confidencial para Ecuador. Cumplimiento LOPDP, gestión documental, SUT, SST, SRI, IESS',
         'favicon' => 'favicon.svg',
         'css' => 'styles.css',
         'js' => 'script.js'
@@ -178,7 +178,7 @@ class IA {
                     'points' => [
                         'Resultados inmediatos: Soluciones implementadas y funcionando rápidamente',
                         'Garantía de resultados: Si no cumplimos lo prometido, no pagas',
-                        'Aplica a: Servicios, Cumplimiento LOPDP, sistemas de salud ocupacional',
+                        'Aplica a: Servicios, Cumplimiento LOPDP, SUT, SST, IESS, sistemas de salud ocupacional',
                         'Excepciones: Venta de equipos y servicios de capacitación',
                         'Compromiso escrito: Acuerdos claros de entregables y plazos',
                         'Soporte incluido: Asistencia técnica durante el período de garantía',
@@ -292,7 +292,7 @@ class IA {
             'Confidencialidad absoluta: Cero transferencia de datos a cloud, nube, internet ...',
             'Con tus propios datos, sin alucinaciones',
             'Control total sobre tu información confidencial',
-            'Cumplimiento automático con regulaciones de privacidad',
+            'Monitoreo automático con regulaciones de privacidad',
             'Agentes y context memory para aprovechar los avances en IA 2025',
             'Integración opcional con sistemas existentes'
         ],
@@ -352,13 +352,13 @@ class IA {
     // ===================================
     public static $saludOcupacional = [
         'id' => 'salud-ocupacional',
-        'title' => 'Salud Ocupacional - Ministerio del Trabajo',
-        'alert' => 'Cumplimiento de regulaciones del Ministerio del Trabajo en Ecuador. Implementación de sistemas de IA para monitoreo y prevención de riesgos laborales.',
+        'title' => 'Inspecciones Ministerio del Trabajo',
+        'alert' => 'Cumplimiento de resoluciones y normativa del Ministerio del Trabajo en Ecuador. Implementación de sistemas de IA para monitoreo del SUT, contratos, finiquitos, exámenes médicos, capacitación y otros documentos laborales.',
         'accordion' => [
             [
-                'title' => 'Obligaciones en Salud y Seguridad',
+                'title' => 'Obligaciones del Ministerio del Trabajo 2025',
                 'items' => [
-                    ['size' => 'Pequeño', 'text' => 'Evaluación básica de riesgos, plan de prevención, capacitación anual, botiquín de emergencia'],
+                    ['size' => 'Pequeño', 'text' => 'Guardar documentos con su hash, evaluación básica de riesgos, plan de prevención, capacitación anual, botiquín de emergencia'],
                     ['size' => 'Mediano', 'text' => 'Comité de SST, evaluación periódica de riesgos, médico ocupacional, capacitación trimestral'],
                     ['size' => 'Grande', 'text' => 'Sistema integral SST, auditorías semestrales, responsable SST designado, reportes mensuales']
                 ]
@@ -373,12 +373,12 @@ class IA {
             ]
         ],
         'soluciones' => [
-            'title' => 'Soluciones IA para Salud Ocupacional',
+            'title' => 'Soluciones IA para inspecciones Ministerio del Trabajo',
             'items' => [
-                'Monitoreo de cumplimiento normativo automático',
-                'Análisis predictivo de riesgos laborales',
-                'Reportes automatizados para auditorías',
-                'Generación de alertas de incidentes'
+                'Análisis de cumplimiento normativo según el número de empleados y el sector',
+                'Análisis predictivo de cumplimiento',
+                'Reportes inteligentes para inspecciones del MDT',
+                'Generación de alertas'
             ]
         ]
     ];
@@ -391,7 +391,7 @@ class IA {
         'title' => 'Sistemas de Gestión Documental Dinámico',
         'accordion' => [
             [
-                'title' => '✨ Beneficios de Gestión Documental',
+                'title' => '✨ Beneficios de Gestión Documental Inteligente',
                 'items' => [
                     ['size' => 'Pequeño', 'text' => 'Organización básica, búsqueda rápida, control de versiones, recuperación ante pérdidas'],
                     ['size' => 'Mediano', 'text' => 'Workflows automáticos, auditoría completa, cumplimiento normativo, integración sistemas'],
@@ -399,23 +399,26 @@ class IA {
                 ]
             ],
             [
-                'title' => '⚠️ Riesgos sin Sistema Documental Sólido',
+                'title' => '⚠️ Riesgos sin Sistema Documental Inteligente',
                 'items' => [
-                    ['size' => 'Pequeño', 'text' => 'Pérdida de información, duplicación de datos, decisiones basadas en información desactualizada'],
-                    ['size' => 'Mediano', 'text' => 'Incumplimiento regulatorio, auditorías fallidas, vulnerabilidades de seguridad'],
-                    ['size' => 'Grande', 'text' => 'Riesgos legales masivos, multas por no conformidad, pérdida de competitividad']
+                    ['size' => 'Pequeño', 'text' => 'Extravío de información, multiplicación de datos, decisiones basadas en información desactualizada'],
+                    ['size' => 'Mediano', 'text' => 'Dificultas para cumplimiento de obligaciones, auditorías con observaciones, vulnerabilidades de seguridad'],
+                    ['size' => 'Grande', 'text' => 'Riesgos legales masivos, multas por no conformidad, pérdida de competitividad, suspensiones y/o cierres']
                 ]
             ]
         ],
         'features' => [
-            'title' => 'Características Principales',
+            'title' => 'Características Sistema Documental Inteligente',
             'items' => [
                 'Documentos privados con control de acceso',
+                'Multimodal: texto, imágenes, videos, audios, bases de datos',
                 'Versionamiento automático',
                 'Trazabilidad completa de cambios',
+                'Optimización de almacenamiento',
                 'Búsqueda inteligente con IA',
                 'Copias de seguridad automáticas',
-                'Cumplimiento regulatorio integrado'
+                'Facilidades para cumplimiento regulatorio',
+                'Adaptable a MDT, SRI, IESS, SuperCIAS, SupTEL, Min Turismo, ...'
             ]
         ]
     ];
@@ -542,9 +545,21 @@ class IA {
                 'answer' => 'Todas nuestras soluciones están diseñadas para escalar. Puedes empezar con una implementación pequeña y expandir según tus necesidades. La arquitectura permite agregar más capacidad de procesamiento, usuarios, y funcionalidades sin necesidad de rehacer el sistema.'
             ],
             [
-                'question' => '¿Cuál es el ROI de implementar IA local?',
+                'question' => '¿La IA toma decisiones por sí sola o necesita supervisión humana?',
+                'answer' => 'La IA NO toma decisiones finales. Nuestro enfoque garantiza que la IA procesa datos, identifica patrones y genera recomendaciones, pero SIEMPRE son profesionales humanos expertos quienes revisan, validan y toman las decisiones finales. Esto asegura que las soluciones sean aplicables, éticas y alineadas con los objetivos de tu organización. La IA es una herramienta poderosa, pero el juicio humano es insustituible.'
+            ],
+            [
+                'question' => '¿Cómo se asegura que las recomendaciones de la IA sean aplicables a mi negocio?',
+                'answer' => 'Nuestro equipo de expertos humanos trabaja en cada proyecto para: 1) Entrenar y ajustar los modelos de IA con datos específicos de tu industria, 2) Validar todas las salidas de la IA contra el conocimiento del dominio, 3) Incorporar reglas de negocio y restricciones operativas, 4) Realizar pruebas piloto con tu personal antes del despliegue completo, y 5) Mantener un ciclo continuo de retroalimentación humana para mejorar la precisión. La IA aprende de los datos, pero los humanos aportan el contexto y la experiencia.'
+            ],
+            [
+                'question' => '¿Qué pasa si la IA genera una recomendación incorrecta o inapropiada?',
+                'answer' => 'Implementamos múltiples salvaguardas: 1) Todas las salidas críticas de la IA pasan por revisión humana obligatoria antes de implementarse, 2) Sistemas de alertas para detectar anomalías o resultados fuera de rango esperado, 3) Logs completos de auditoría para rastrear cómo se generó cada recomendación, 4) Mecanismos de retroalimentación para que los usuarios reporten problemas, y 5) Actualizaciones continuas del modelo basadas en casos reales. Además, capacitamos a tu personal para identificar y cuestionar resultados sospechosos. La responsabilidad final siempre recae en humanos, no en la máquina.'
+            ],
+            [
+                'question' => '¿Cuál es el ROI (Retorno de Inversión) al implementar nuestras soluciones IA?',
                 'answer' => 'El retorno de inversión varía según el caso de uso, pero típicamente incluye: reducción de 60-80% en tiempo de procesamiento de documentos, disminución de errores humanos, cumplimiento normativo (evitando multas), automatización de tareas repetitivas, y mejor toma de decisiones basada en datos. Muchos clientes recuperan la inversión en 6-12 meses.'
-            ]
+            ],
         ]
     ];
 
@@ -571,7 +586,7 @@ class IA {
                     ],
                     [
                         'name' => 'Ministerio del Trabajo - Ecuador',
-                        'description' => 'Normativas de salud ocupacional y seguridad laboral',
+                        'description' => 'Normativas y resoluciones sobre asuntos laborales',
                         'url' => 'https://www.trabajo.gob.ec/'
                     ]
                 ]
