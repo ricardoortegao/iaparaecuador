@@ -581,6 +581,12 @@ class IA {
                         'description' => 'Organismo oficial de control y regulación de datos personales en Ecuador',
                         'url' => 'https://spdp.gob.ec/'
                     ],
+                    
+                    [
+                        'name' => 'Resoluciones 2025 Superintendencia de Protección de Datos Personales (SPDP)',
+                        'description' => 'Nuestro servicio cumple con las siguientes resoluciones técnicas',
+                        'url' => 'https://spdp.gob.ec/resoluciones_spdp/'
+                    ],
                     [
                         'name' => 'Ley Orgánica de Protección de Datos Personales',
                         'description' => 'Texto completo de la LOPDP - Registro Oficial',
