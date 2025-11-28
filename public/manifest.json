@@ -1,7 +1,7 @@
 {
   "name": "IA para Ecuador - Inteligencia Artificial Local y Privada",
   "short_name": "IA Ecuador",
-  "description": "Soluciones de Inteligencia Artificial local, privada y confidencial para Ecuador. Cumplimiento LOPDP, gestión documental, salud ocupacional.",
+  "description": "Soluciones de Inteligencia Artificial local, privada y confidencial para Ecuador. Cumplimiento LOPDP, gestión documental, salud ocupacional, QA y auditoría de software.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",

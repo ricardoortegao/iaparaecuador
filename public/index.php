@@ -122,28 +122,6 @@ class IA {
                 ]
             ],
             [
-                'icon' => 'svg-docs-ai-brain',
-                'title' => 'Gestión Documental con IA',
-                'text' => 'Control total de documentos en la era de la IA',
-                'modal_id' => 'modal-gestion-documental',
-                'section_link' => '#documentacion',
-                'modal_content' => [
-                    'title' => 'Sistema de Gestión Documental Inteligente con IA',
-                    'description' => 'Organiza, busca y gestiona documentos con inteligencia artificial. El Ministerio del Trabajo exige desde julio 2025 que cada empleador almacene y gestione sus documentos',
-                    'points' => [
-                        'Clasificación automática de documentos según estructura MDT SUT, SRI, IESS, SuperCIAS, SupTel ...',
-                        'Búsqueda inteligente en lenguaje natural',
-                        'Control de versiones y trazabilidad completa',
-                        'Extracción automática de metadatos y de información clave',
-                        'Workflows de aprobación automatizados',
-                        'Copias de seguridad y recuperación ante desastres',
-                        'Cumplimiento con normativas modernas para archivo',
-                        'Organización eficiente para grandes volúmenes de datos y archivos complejoso',
-                        'Análisis de contenido con IA'
-                    ]
-                ]
-            ],
-            [
                 'icon' => 'svg-custom-solutions',
                 'title' => 'Soluciones IA a la medida',
                 'text' => 'Tiene un problema sin solución? Nuestros expertos en IA lo pueden resolver o ya lo resolvieron para otras organizaciones',
@@ -170,23 +148,24 @@ class IA {
                 ]
             ],
             [
-                'icon' => 'svg-guarantee-money',
-                'title' => 'Resultados inmediatos y garantizados',
-                'text' => 'No vendemos humo. Vendemos IA productiva con resultados. Garantía de satisfacción o devolución de dinero',
-                'modal_id' => 'modal-garantia',
-                'section_link' => '#contacto',
+                'icon' => 'svg-docs-ai-brain',
+                'title' => 'Gestión Documental con IA',
+                'text' => 'Control total de documentos en la era de la IA',
+                'modal_id' => 'modal-gestion-documental',
+                'section_link' => '#documentacion',
                 'modal_content' => [
-                    'title' => 'Garantía de Resultados o Devolución de Dinero',
-                    'description' => 'Estamos tan seguros de la calidad de nuestros servicios que ofrecemos garantía total de satisfacción',
+                    'title' => 'Sistema de Gestión Documental Inteligente con IA',
+                    'description' => 'Organiza, busca y gestiona documentos con inteligencia artificial. El Ministerio del Trabajo exige desde julio 2025 que cada empleador almacene y gestione sus documentos',
                     'points' => [
-                        'Resultados inmediatos: Soluciones implementadas y funcionando rápidamente',
-                        'Garantía de resultados: Si no cumplimos lo prometido, no pagas',
-                        'Aplica a: Servicios, Cumplimiento LOPDP, SUT, SST, IESS, sistemas de salud ocupacional',
-                        'Excepciones: Venta de equipos y servicios de capacitación',
-                        'Compromiso escrito: Acuerdos claros de entregables y plazos',
-                        'Soporte incluido: Asistencia técnica durante el período de garantía',
-                        'Sin letra pequeña: Condiciones transparentes y justas',
-                        'Tu satisfacción es nuestra prioridad'
+                        'Clasificación automática de documentos según estructura MDT SUT, SRI, IESS, SuperCIAS, SupTel ...',
+                        'Búsqueda inteligente en lenguaje natural',
+                        'Control de versiones y trazabilidad completa',
+                        'Extracción automática de metadatos y de información clave',
+                        'Workflows de aprobación automatizados',
+                        'Copias de seguridad y recuperación ante desastres',
+                        'Cumplimiento con normativas modernas para archivo',
+                        'Organización eficiente para grandes volúmenes de datos y archivos complejoso',
+                        'Análisis de contenido con IA'
                     ]
                 ]
             ],
@@ -210,6 +189,79 @@ class IA {
                         'Prácticas en laboratorio con casos reales',
                         'Material didáctico y recursos continuos',
                         'Grupos de hasta 20 personas'
+                    ]
+                ]
+            ],
+            [
+                'icon' => 'svg-qa-audit',
+                'title' => 'QA & Auditoría de Software',
+                'text' => 'Aseguramiento de calidad y auditoría profesional de software código fuente y código binario',
+                'modal_id' => 'modal-qa-audit',
+                'section_link' => 'https://auditoriadesoftware.com',
+                'section_link_external' => true,
+                'section_link_text' => 'Ver detalle en AuditoriaDeSoftware.com',
+                'modal_content' => [
+                    'title' => 'QA & Auditoría de Software',
+                    'description' => 'Servicios profesionales de aseguramiento de calidad y auditoría de software para garantizar que tus aplicaciones cumplan con los más altos estándares de calidad, seguridad y rendimiento',
+                    'points' => [
+                        'Auditoría completa de código fuente y arquitectura',
+                        'Pruebas funcionales y no funcionales exhaustivas',
+                        'Análisis de seguridad y vulnerabilidades',
+                        'Evaluación de rendimiento y escalabilidad',
+                        'Revisión de cumplimiento normativo y estándares',
+                        'Pruebas de integración y regresión automatizadas',
+                        'Análisis de calidad de código y mejores prácticas',
+                        'Documentación técnica y reportes detallados',
+                        'Recomendaciones de mejora y optimización',
+                        'Certificación de calidad de software',
+                        'Soporte continuo y seguimiento de correcciones',
+                        'Metodologías ágiles y tradicionales'
+                    ]
+                ]
+            ],
+            [
+                'icon' => 'svg-human-ai-synergy',
+                'title' => 'La IA analiza datos, el ser humano toma decisiones',
+                'text' => 'Simbiosis perfecta entre inteligencia artificial y experiencia humana',
+                'modal_id' => 'modal-human-ai',
+                'section_link' => '#contacto',
+                'modal_content' => [
+                    'title' => 'Simbiosis: Inteligencia Artificial + Experiencia Humana',
+                    'description' => 'La IA procesa grandes volúmenes de datos, pero son nuestros expertos humanos quienes toman las decisiones finales, garantizando soluciones aplicables y efectivas',
+                    'points' => [
+                        'IA procesa millones de registros en segundos, humanos interpretan el contexto',
+                        'IA identifica patrones ocultos, humanos validan su relevancia',
+                        'IA genera múltiples escenarios, humanos eligen la mejor estrategia',
+                        'IA realiza inferencias estadísticas, humanos aplican juicio experto',
+                        'IA produce resúmenes automáticos, humanos verifican precisión',
+                        'IA proyecta tendencias futuras, humanos ajustan según realidad del negocio',
+                        'IA sugiere optimizaciones, humanos evalúan viabilidad práctica',
+                        'IA detecta anomalías, humanos investigan causas raíz',
+                        'IA automatiza tareas repetitivas, humanos se enfocan en decisiones estratégicas',
+                        'IA aprende de datos históricos, humanos aportan conocimiento del dominio',
+                        'IA opera 24/7 sin fatiga, humanos supervisan y ajustan continuamente',
+                        'Resultado: Soluciones tecnológicamente avanzadas y humanamente aplicables'
+                    ]
+                ]
+            ],
+            [
+                'icon' => 'svg-guarantee-money',
+                'title' => 'Resultados inmediatos y garantizados',
+                'text' => 'No vendemos humo. Vendemos IA productiva con resultados. Garantía de satisfacción o devolución de dinero',
+                'modal_id' => 'modal-garantia',
+                'section_link' => '#contacto',
+                'modal_content' => [
+                    'title' => 'Garantía de Resultados o Devolución de Dinero',
+                    'description' => 'Estamos tan seguros de la calidad de nuestros servicios que ofrecemos garantía total de satisfacción',
+                    'points' => [
+                        'Resultados inmediatos: Soluciones implementadas y funcionando rápidamente',
+                        'Garantía de resultados: Si no cumplimos lo prometido, no pagas',
+                        'Aplica a: Servicios, Cumplimiento LOPDP, SUT, SST, IESS, sistemas de salud ocupacional',
+                        'Excepciones: Venta de equipos y servicios de capacitación',
+                        'Compromiso escrito: Acuerdos claros de entregables y plazos',
+                        'Soporte incluido: Asistencia técnica durante el período de garantía',
+                        'Sin letra pequeña: Condiciones transparentes y justas',
+                        'Tu satisfacción es nuestra prioridad'
                     ]
                 ]
             ],
@@ -251,31 +303,6 @@ class IA {
                         'Tests especializados para estudiantes y profesores',
                         'Tests especializados para expertos en hojas electrónicas',
                         'Te podemos ayudar para que mejores tu suficiencia en IA'
-                    ]
-                ]
-            ],
-            [
-                'icon' => 'svg-human-ai-synergy',
-                'title' => 'La IA analiza datos, el ser humano toma decisiones',
-                'text' => 'Simbiosis perfecta entre inteligencia artificial y experiencia humana',
-                'modal_id' => 'modal-human-ai',
-                'section_link' => '#contacto',
-                'modal_content' => [
-                    'title' => 'Simbiosis: Inteligencia Artificial + Experiencia Humana',
-                    'description' => 'La IA procesa grandes volúmenes de datos, pero son nuestros expertos humanos quienes toman las decisiones finales, garantizando soluciones aplicables y efectivas',
-                    'points' => [
-                        'IA procesa millones de registros en segundos, humanos interpretan el contexto',
-                        'IA identifica patrones ocultos, humanos validan su relevancia',
-                        'IA genera múltiples escenarios, humanos eligen la mejor estrategia',
-                        'IA realiza inferencias estadísticas, humanos aplican juicio experto',
-                        'IA produce resúmenes automáticos, humanos verifican precisión',
-                        'IA proyecta tendencias futuras, humanos ajustan según realidad del negocio',
-                        'IA sugiere optimizaciones, humanos evalúan viabilidad práctica',
-                        'IA detecta anomalías, humanos investigan causas raíz',
-                        'IA automatiza tareas repetitivas, humanos se enfocan en decisiones estratégicas',
-                        'IA aprende de datos históricos, humanos aportan conocimiento del dominio',
-                        'IA opera 24/7 sin fatiga, humanos supervisan y ajustan continuamente',
-                        'Resultado: Soluciones tecnológicamente avanzadas y humanamente aplicables'
                     ]
                 ]
             ],
@@ -737,7 +764,8 @@ class IA {
         print '      },'.L;
         print '      "sameAs": ['.L;
         print '        "https://iasoloparami.com",'.L;
-        print '        "https://expertosenia.net"'.L;
+        print '        "https://expertosenia.net",'.L;
+        print '        "https://auditoriadesoftware.com"'.L;
         print '      ],'.L;
         print '      "areaServed": "EC",'.L;
         print '      "serviceType": ['.L;
@@ -745,6 +773,7 @@ class IA {
         print '        "Cumplimiento LOPDP",'.L;
         print '        "Gestión Documental",'.L;
         print '        "Salud Ocupacional",'.L;
+        print '        "QA y Auditoría de Software",'.L;
         print '        "Capacitación en IA"'.L;
         print '      ]'.L;
         print '    }'.L;
@@ -773,7 +802,7 @@ class IA {
         print '    <meta name="viewport" content="width=device-width, initial-scale=1.0">'.L;
         print '    <title>'.$meta['title'].'</title>'.L;
         print '    <meta name="description" content="'.$meta['description'].'">'.L;
-        print '    <meta name="keywords" content="IA Ecuador, Inteligencia Artificial, IA Local, IA Privada, LOPDP, Protección Datos, Salud Ocupacional, Gestión Documental, IA Confidencial">'.L;
+        print '    <meta name="keywords" content="IA Ecuador, Inteligencia Artificial, IA Local, IA Privada, LOPDP, Protección Datos, Salud Ocupacional, Gestión Documental, IA Confidencial, QA Software, Auditoría Software, Testing">'.L;
         print '    <meta name="author" content="IA para Ecuador">'.L;
         print '    <meta name="robots" content="index, follow">'.L;
         print '    <link rel="canonical" href="https://iaparaecuador.com/">'.L;
@@ -1014,6 +1043,42 @@ class IA {
                 print '  <circle cx="44" cy="42" r="7" fill="#059669" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/>'.L;
                 print '  <text x="44" y="44" font-family="Arial, sans-serif" font-size="7" font-weight="bold" fill="#ffffff" text-anchor="middle">30d</text>'.L;
                 print '</svg>'.L;
+            } elseif ($feature['icon'] === 'svg-qa-audit') {
+                print '<svg viewBox="0 0 64 64" width="48" height="48" xmlns="http://www.w3.org/2000/svg">'.L;
+                print '  <defs>'.L;
+                print '    <linearGradient id="clipboardGradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '    <linearGradient id="paperQAGradient" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+                print '      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />'.L;
+                print '      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />'.L;
+                print '    </linearGradient>'.L;
+                print '  </defs>'.L;
+                print '  <!-- Clipboard/Portapapeles (azul) -->'.L;
+                print '  <rect x="14" y="8" width="36" height="50" rx="3" fill="url(#clipboardGradient)" stroke="#2563eb" stroke-width="2.5"/>'.L;
+                print '  <!-- Clip superior -->'.L;
+                print '  <rect x="24" y="6" width="16" height="6" rx="2" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/>'.L;
+                print '  <!-- Papel blanco interior -->'.L;
+                print '  <rect x="18" y="14" width="28" height="40" rx="2" fill="url(#paperQAGradient)" stroke="#e2e8f0" stroke-width="1.5"/>'.L;
+                print '  <!-- Líneas de checklist -->'.L;
+                print '  <line x1="28" y1="22" x2="42" y2="22" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>'.L;
+                print '  <line x1="28" y1="30" x2="42" y2="30" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>'.L;
+                print '  <line x1="28" y1="38" x2="42" y2="38" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>'.L;
+                print '  <line x1="28" y1="46" x2="38" y2="46" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>'.L;
+                print '  <!-- Checkmarks verdes -->'.L;
+                print '  <path d="M 22 20 L 24 22 L 27 18" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 22 28 L 24 30 L 27 26" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 22 36 L 24 38 L 27 34" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <path d="M 22 44 L 24 46 L 27 42" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+                print '  <!-- Estrella dorada de calidad -->'.L;
+                print '  <path d="M 44 44 L 46 48 L 50 48.5 L 47 51.5 L 47.8 55.5 L 44 53.5 L 40.2 55.5 L 41 51.5 L 38 48.5 L 42 48 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.5"/>'.L;
+                print '  <!-- Brillo de la estrella -->'.L;
+                print '  <circle cx="44" cy="48" r="1" fill="#fef3c7" opacity="0.8"/>'.L;
+                print '  <!-- Badge "QA" -->'.L;
+                print '  <circle cx="40" cy="16" r="6" fill="#10b981" stroke="#059669" stroke-width="2"/>'.L;
+                print '  <text x="40" y="18.5" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff" text-anchor="middle">QA</text>'.L;
+                print '</svg>'.L;
             } elseif ($feature['icon'] === 'svg-custom-solutions') {
                 self::renderIcon($feature['icon'], '48');
             } elseif ($feature['icon'] === 'svg-human-ai-synergy') {
@@ -1093,6 +1158,42 @@ class IA {
             print '  <circle cx="52" cy="52" r="1.5" fill="#8b5cf6" opacity="0.6"/>'.L;
             print '  <circle cx="46" cy="54" r="1.5" fill="#8b5cf6" opacity="0.6"/>'.L;
             print '  <circle cx="40" cy="52" r="1.5" fill="#8b5cf6" opacity="0.6"/>'.L;
+            print '</svg>'.L;
+        } elseif ($icon === 'svg-qa-audit') {
+            print '<svg viewBox="0 0 64 64" width="'.$size.'" height="'.$size.'" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;">'.L;
+            print '  <defs>'.L;
+            print '    <linearGradient id="clipboardGrad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+            print '      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />'.L;
+            print '      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />'.L;
+            print '    </linearGradient>'.L;
+            print '    <linearGradient id="paperQAGrad'.$size.'" x1="0%" y1="0%" x2="0%" y2="100%">'.L;
+            print '      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />'.L;
+            print '      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />'.L;
+            print '    </linearGradient>'.L;
+            print '  </defs>'.L;
+            print '  <!-- Clipboard/Portapapeles (azul) -->'.L;
+            print '  <rect x="14" y="8" width="36" height="50" rx="3" fill="url(#clipboardGrad'.$size.')" stroke="#2563eb" stroke-width="2.5"/>'.L;
+            print '  <!-- Clip superior -->'.L;
+            print '  <rect x="24" y="6" width="16" height="6" rx="2" fill="#1e40af" stroke="#1e3a8a" stroke-width="1.5"/>'.L;
+            print '  <!-- Papel blanco interior -->'.L;
+            print '  <rect x="18" y="14" width="28" height="40" rx="2" fill="url(#paperQAGrad'.$size.')" stroke="#e2e8f0" stroke-width="1.5"/>'.L;
+            print '  <!-- Líneas de checklist -->'.L;
+            print '  <line x1="28" y1="22" x2="42" y2="22" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>'.L;
+            print '  <line x1="28" y1="30" x2="42" y2="30" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>'.L;
+            print '  <line x1="28" y1="38" x2="42" y2="38" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>'.L;
+            print '  <line x1="28" y1="46" x2="38" y2="46" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round"/>'.L;
+            print '  <!-- Checkmarks verdes -->'.L;
+            print '  <path d="M 22 20 L 24 22 L 27 18" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+            print '  <path d="M 22 28 L 24 30 L 27 26" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+            print '  <path d="M 22 36 L 24 38 L 27 34" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+            print '  <path d="M 22 44 L 24 46 L 27 42" fill="none" stroke="#10b981" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'.L;
+            print '  <!-- Estrella dorada de calidad -->'.L;
+            print '  <path d="M 44 44 L 46 48 L 50 48.5 L 47 51.5 L 47.8 55.5 L 44 53.5 L 40.2 55.5 L 41 51.5 L 38 48.5 L 42 48 Z" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.5"/>'.L;
+            print '  <!-- Brillo de la estrella -->'.L;
+            print '  <circle cx="44" cy="48" r="1" fill="#fef3c7" opacity="0.8"/>'.L;
+            print '  <!-- Badge "QA" -->'.L;
+            print '  <circle cx="40" cy="16" r="6" fill="#10b981" stroke="#059669" stroke-width="2"/>'.L;
+            print '  <text x="40" y="18.5" font-family="Arial, sans-serif" font-size="6" font-weight="bold" fill="#ffffff" text-anchor="middle">QA</text>'.L;
             print '</svg>'.L;
         } elseif ($icon === 'svg-custom-solutions') {
             print '<svg viewBox="0 0 64 64" width="'.$size.'" height="'.$size.'" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;">'.L;
