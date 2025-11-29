@@ -543,6 +543,10 @@ class IA {
                 'answer' => 'La IA local ejecuta modelos de inteligencia artificial directamente en tu infraestructura (servidores propios), sin enviar datos a servicios externos. A diferencia de la IA en la nube (como ChatGPT, Claude), tus datos nunca salen de tu organización, garantizando privacidad total y cumplimiento con regulaciones como la LOPDP de Ecuador.'
             ],
             [
+                'question' => '¿Qué modelo de IA me conviene?',
+                'answer' => 'Existem varios modelos de IA tanto en local como en internet. Preguntar por marca o modelo de IA es lo mismo que preguntar por marca o modelo de auto o de computador. La respuesta depende del uso que se espera. Para móviles se recomienda Google Gemini, OpenIA ChatGPT, Microsoft Copilot, Perplexity ... hay miles de modelos.'
+            ],
+            [
                 'question' => '¿Mi empresa está obligada a cumplir con la LOPDP?',
                 'answer' => 'Sí, si tu organización procesa datos personales de ciudadanos ecuatorianos (empleados, clientes, pacientes, etc.). La Ley Orgánica de Protección de Datos Personales aplica a todas las empresas públicas y privadas en Ecuador, independientemente de su tamaño. El incumplimiento puede resultar en multas de hasta USD 100,000.'
             ],
