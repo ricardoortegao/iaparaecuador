@@ -49,14 +49,14 @@ class IA {
             [
                 'icon' => 'svg-lock-key',
                 'title' => 'IA Local, privada, confidencial sin internet',
-                'text' => 'Privacidad garantizada',
+                'text' => 'Su mano derecha digital. Incansable, confiable. Privacidad garantizada',
                 'modal_id' => 'modal-ia-local',
                 'section_link' => 'https://iasoloparami.com',
                 'section_link_external' => true,
                 'section_link_text' => 'Ver detalle y cotizador',
                 'modal_content' => [
                     'title' => 'IA Local, privada, confidencial sin internet',
-                    'description' => 'Modelos de inteligencia artificial ejecutándose en tu propia infraestructura (laptop, PC, servidor), tus datos, sin necesidad de conexión a internet',
+                    'description' => 'Modelos de inteligencia artificial ejecutándose en tu propia infraestructura (laptop, PC, servidor), tus datos, sin necesidad de conexión a internet. Productividad mejorada.',
                     'points' => [
                         'Datos que nunca salen de tu organización',
                         'Cero transferencia a servidores externos o nubes públicas',
@@ -316,11 +316,12 @@ class IA {
         'id' => 'ia-local',
         'title' => 'IA Local, Privada y Confidencial',
         'content_title' => 'Datos Propios de tu Organización',
-        'content_text' => 'Implementamos soluciones de IA que funcionan completamente dentro de tu infraestructura, garantizando que tus datos sensibles nunca abandonen tu organización.',
+        'content_text' => 'Implementamos soluciones de IA que funcionan completamente dentro de tu infraestructura, garantizando que tus datos sensibles nunca abandonen tu organización. Más que asistentes digitales son colaboradores inteligentes, incansables, bajo tu control.',
         'check_list' => [
             'Modelos de IA ejecutándose localmente en tu propia infraestructura',
             'Confidencialidad absoluta: Cero transferencia de datos a cloud, nube, internet ...',
             'Con tus propios datos, sin alucinaciones',
+            'Mano derecha digital, incansable, inteligente, siempre obediente',
             'Control total sobre tu información confidencial',
             'Monitoreo automático con regulaciones de privacidad',
             'Agentes y context memory para aprovechar los avances en IA 2025',
