@@ -286,28 +286,60 @@ class IA {
                     ]
                 ]
             ],
-            [
-                'icon' => '🎯',
-                'title' => 'Auto test suficiencia en IA',
-                'text' => 'Evalúa tus conocimientos y competencias',
-                'modal_id' => 'modal-test-ia',
-                'section_link' => 'https://expertosenia.net/test',
-                'section_link_external' => true,
-                'section_link_text' => 'Realizar Tests',
-                'modal_content' => [
-                    'title' => 'Tests de Suficiencia en Inteligencia Artificial',
-                    'description' => 'Evalúa tu nivel de conocimiento y experiencia en diferentes áreas de IA con nuestros tests especializados',
-                    'points' => [
-                        'Tests por actividades: generales, académicas, técnicas, médicas',
-                        'Tests especializados para especialistas en IA',
-                        'Tests especializados para estudiantes y profesores',
-                        'Tests especializados para expertos en hojas electrónicas',
-                        'Te podemos ayudar para que mejores tu suficiencia en IA'
-                    ]
-                ]
-            ],
-        ]
-    ];
+             [
+                 'icon' => '🎯',
+                 'title' => 'Auto test suficiencia en IA',
+                 'text' => 'Evalúa tus conocimientos y competencias',
+                 'modal_id' => 'modal-test-ia',
+                 'section_link' => 'https://expertosenia.net/test',
+                 'section_link_external' => true,
+                 'section_link_text' => 'Realizar Tests',
+                 'modal_content' => [
+                     'title' => 'Tests de Suficiencia en Inteligencia Artificial',
+                     'description' => 'Evalúa tu nivel de conocimiento y experiencia en diferentes áreas de IA con nuestros tests especializados',
+                     'points' => [
+                         'Tests por actividades: generales, académicas, técnicas, médicas',
+                         'Tests especializados para especialistas en IA',
+                         'Tests especializados para estudiantes y profesores',
+                         'Tests especializados para expertos en hojas electrónicas',
+                         'Te podemos ayudar para que mejores tu suficiencia en IA'
+                     ]
+                 ]
+             ],
+             [
+                 'icon' => '❓',
+                 'title' => 'Mitos de la IA y la automatización',
+                 'text' => 'Desmintiendo creencias populares sobre la IA',
+                 'modal_id' => 'modal-mitos-ia',
+                 'section_link' => '#contacto',
+                 'modal_content' => [
+                     'title' => 'Mitos de la IA y la automatización',
+                     'description' => 'Analizamos las creencias populares versus las realidades de la implementación de IA en organizaciones y personas',
+                     'points' => [
+                         'Mito: Cuesta mucho. Realidad: Las soluciones de IA ofrecen retorno de inversión rápido, con ahorros significativos en tiempo y costos operativos.',
+                         'Mito: Requiere mucho esfuerzo. Realidad: La IA automatiza tareas repetitivas, reduciendo el esfuerzo humano y permitiendo enfocarse en actividades de mayor valor.',
+                         'Mito: Toma tiempo. Realidad: Implementaciones básicas pueden estar listas en semanas, con resultados inmediatos.',
+                         'Mito: Es complicado. Realidad: Diseñamos soluciones intuitivas y fáciles de usar, sin necesidad de expertise técnico avanzado.',
+                         'Mito: Solo es para empresas grandes. Realidad: La IA es accesible para organizaciones de cualquier tamaño, desde emprendedores hasta grandes corporaciones.',
+                         'Mito: Solo es para quienes tienen dinero. Realidad: Ofrecemos opciones escalables y asequibles, con modelos de pago por uso y garantías de resultados.',
+                         'Mito: Toma demasiado tiempo. Realidad: La IA acelera procesos, liberando tiempo para innovación y crecimiento.',
+                         'Mito: No es adecuado para personas. Realidad: La IA potencia las capacidades individuales, ayudando a profesionales, estudiantes y emprendedores.',
+                         'Mito: Solo es otra forma de buscar en internet. Realidad: La IA va más allá de la búsqueda, procesando datos complejos, generando insights y automatizando decisiones.',
+                         'Mito: Reemplazará al ser humano. Realidad: La IA es una herramienta que complementa la experiencia humana, no la reemplaza. Las decisiones finales las toman expertos.',
+                         'Mito: La IA necesita suscripción pagada. Realidad: Existen modelos de código abierto y soluciones locales gratuitas o con costos mínimos, sin suscripciones obligatorias.',
+                         'Mito: La IA necesita que se suban los datos a internet. Realidad: Nuestras soluciones de IA local funcionan completamente offline, manteniendo tus datos en tu infraestructura segura.',
+                         'Mito: Se pierde la confidencialidad. Realidad: La IA local garantiza que tus datos sensibles nunca salen de tu organización, preservando la privacidad absoluta.',
+                         'Mito: La IA es solo para expertos técnicos. Realidad: Creamos interfaces amigables que permiten a cualquier usuario operarlas sin conocimientos avanzados de programación.',
+                         'Mito: La IA es peligrosa y puede causar errores graves. Realidad: Implementamos validaciones múltiples y supervisión humana para asegurar precisión y minimizar riesgos.',
+                         'Mito: La IA elimina empleos. Realidad: La IA transforma roles laborales, creando nuevas oportunidades y mejorando la eficiencia, no eliminando puestos de trabajo.',
+                         'Mito: La IA es cara de mantener. Realidad: Una vez implementada, la IA reduce costos operativos a largo plazo mediante automatización y optimización.',
+                         'Mito: La IA no entiende el contexto local. Realidad: Adaptamos los modelos con datos específicos de Ecuador y tu sector para resultados relevantes y precisos.',
+                         'Mito: La IA es solo para tareas simples. Realidad: Maneja procesos complejos como análisis predictivo, generación de reportes avanzados y toma de decisiones estratégicas.'
+                     ]
+                 ]
+             ],
+         ]
+     ];
 
     // ===================================
     // SECCIÓN IA LOCAL
